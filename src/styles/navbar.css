@@ -26,12 +26,22 @@
         width: 100%;
         border: 1px 0 1px 0 solid white;
         margin-bottom: 2px;
-        background-color: #223454;
+        background-color: #2234546e;
         color: aliceblue;
         border-radius: 5px;
+       
       }
     
       .hide{
         display: none;
 
+      }
+
+      .nav-btns{
+        height: 600px;
+        overflow-y: scroll;
+        
+      }
+      .nav-btns::-webkit-scrollbar{
+        display: none;
       }
