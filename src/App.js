@@ -11,7 +11,9 @@ var i = 1;
   }
   return (
     <div className="App">
-      <div className="navbar-wrapper" onClick={handleclick}></div>
+      <div className={(click) ? "navbar-wrapper-change" : "navbar-wrapper"} >
+      <div onClick={handleclick} className='navbar-back-btn'></div>
+      </div>
       <div className="body"></div>
     </div>
   );
