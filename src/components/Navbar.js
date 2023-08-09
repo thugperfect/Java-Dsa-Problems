@@ -1,5 +1,5 @@
 import {useState} from 'react'
-
+import '../styles/navbar.css'
 const Navbar = () =>{
     const [click,setclick] = useState(false)
     const handleclick = () =>{

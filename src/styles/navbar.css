@@ -1,0 +1,21 @@
+.navbar-wrapper{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    }
+    .navbar-wrapper-change{
+      width: 300px;
+    height: 100vh;
+    background-color: aliceblue;
+    position: absolute;
+    
+    }
+    .navbar-back-btn{
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 100%;
+      
+      }
