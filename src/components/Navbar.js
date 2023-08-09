@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import '../styles/navbar.css'
 import back from '../images/icon_672013_edited.png'
+import Topbar from './Topbar'
 const Navbar = () =>{
     const [click,setclick] = useState(false)
     const handleclick = () =>{
@@ -9,7 +10,7 @@ const Navbar = () =>{
      
     }
     return(
-    <div className={(click)?'navbar-main':""}>
+    <div onClick={handleclick} className={(click)?'navbar-main':""}>
  <div className={(click) ? "navbar-wrapper-change": "navbar-wrapper" } >
 
 
