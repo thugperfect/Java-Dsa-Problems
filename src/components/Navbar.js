@@ -8,34 +8,40 @@ const Navbar = () =>{
       console.log(click);
      
     }
-    return(<div className={(click) ?  "navbar-wrapper" :"navbar-wrapper-change" } >
-    <div onClick={handleclick} className={(click) ? 'navbar-back-btn ' :'navbar-back-btn left'}>
-      <img src={back} alt="none"/>
-    </div>
+    return(
+    <div className={(click)?'navbar-main':""}>
+ <div className={(click) ? "navbar-wrapper-change": "navbar-wrapper" } >
 
-    <div className={(click) ? "hide" :'nav-btns'}>
-    <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
-      <div className='nav-btn'>vhjgvghcj</div>
+
+<div onClick={handleclick} className={(click) ? 'navbar-back-btn left':'navbar-back-btn ' }>
+  <img src={back} alt="none"/>
+</div>
+
+<div className={(click) ? 'nav-btns':"hide" }>
+<div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+  <div className='nav-btn'>vhjgvghcj</div>
+</div>
+</div>
     </div>
-    </div>)
+   )
 }
 
 
