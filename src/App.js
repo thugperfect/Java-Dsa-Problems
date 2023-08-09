@@ -12,7 +12,10 @@ function App() {
 
       <div className='App'>
       <Navbar/>
-      <div className="body"></div>
+      <div className="body">uiwbdsyvcyevcuibdsuibcuidsbcciuvdsus
+      dkjfbuidsbvnbjkdbvjkds
+      dshjdsjkv jkdjk
+      dsvjvbjkdsbvkjdbjkvbkj</div>
       </div>
     
     </div>
