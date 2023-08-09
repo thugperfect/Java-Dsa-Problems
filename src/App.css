@@ -11,7 +11,7 @@ height: 50px;
 background-color: aliceblue;
 position: absolute;
 }
-.navbar-wrapper:hover{
+.navbar-wrapper-change{
   width: 300px;
 height: 100vh;
 background-color: aliceblue;
