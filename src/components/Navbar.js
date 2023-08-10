@@ -2,13 +2,25 @@ import {useState} from 'react'
 import '../styles/navbar.css'
 import back from '../images/icon_672013_edited.png'
 import Topbar from './Topbar'
-const Navbar = () =>{
+
+import FirstJava from "../topics/FirstJava"
+import Functions from "../topics/Functions"
+import ConditionalsAndLoops from "../topics/ConditionalsAndLoops"
+import Arrays from "../topics/Arrays"
+import Searching from "../topics/Searching"
+
+
+const Navbar = (  {onTopicChange}) =>{
     const [click,setclick] = useState(false)
     const handleclick = () =>{
       setclick(!click);
       console.log(click);
      
     }
+
+    const handleClick = (newTopicComponent) => {
+      onTopicChange(newTopicComponent);
+    };
     return(
     <div onClick={handleclick} className={(click)?'navbar-main':""}>
  <div className={(click) ? "navbar-wrapper-change": " navbar-wrapper" } >
@@ -19,11 +31,11 @@ const Navbar = () =>{
 </div>
 
 <div className={(click) ? 'nav-btns':"hide" }>
-<div className='nav-btn'>First Java</div>
-  <div className='nav-btn'>Conditionals and Loops</div>
-  <div className='nav-btn'>Functions</div>
-  <div className='nav-btn'>Arrays</div>
-  <div className='nav-btn'>Searching</div>
+<div onClick={() =>handleClick(<FirstJava/>)} className='nav-btn'>First Java</div>
+  <div onClick={() =>handleClick(<ConditionalsAndLoops/>)} className='nav-btn'>Conditionals and Loops</div>
+  <div onClick={() =>handleClick(<Functions/>)} className='nav-btn'>Functions</div>
+  <div onClick={() =>handleClick(<Arrays/>)} className='nav-btn'>Arrays</div>
+  <div onClick={() =>handleClick(<Searching/>)} className='nav-btn'>Searching</div>
   <div className='nav-btn'>Sorting</div>
   <div className='nav-btn'>Strings</div>
   <div className='nav-btn'>Patterns</div>
