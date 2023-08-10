@@ -1,5 +1,8 @@
 import '../styles/topics.css'
+import { useEffect } from 'react'
 const FirstJava = () =>{
+
+    
     return(<div className='map'>
         <div className="topics-logo">FirstJava</div>
         <div className='topics-body'>
@@ -8,6 +11,7 @@ const FirstJava = () =>{
                 
                 <div className='topic-jist-left'></div>
                 </div>
+
                 <div className='topic-point-right'>2
                 
                 <div className='topic-jist-right'></div></div>

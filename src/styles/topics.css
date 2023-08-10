@@ -39,6 +39,7 @@ margin: 20px;
     align-items: center;
     font-size: 30px;
     position: relative;
+    cursor: pointer;
 
 }
 .topic-point-left{
@@ -48,10 +49,12 @@ margin: 20px;
     align-self: flex-end;
     margin-bottom: 20px;
 }
-.topic-point:hover{
+.topic-point-left:hover{
     background-color: rgb(13, 199, 13);
 }
-
+.topic-point-right:hover{
+    background-color: rgb(13, 199, 13);
+}
 .topic-jist-left{
     background-color: rgba(255, 255, 255, 0.73);
     width: 200px;
@@ -86,3 +89,4 @@ margin: 20px;
     display: block;
    
 }
+
