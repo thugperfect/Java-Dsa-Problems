@@ -70,6 +70,8 @@ height: 675px;
       .nav-btns{
         height: 600px;
         overflow-y: scroll;
+        font-size: 20px;
+        cursor: pointer;
         
       }
       .nav-btns::-webkit-scrollbar{
