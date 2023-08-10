@@ -8,9 +8,9 @@ const Body = ({topic}) =>{
 
    
     return(<div className="body">
-    <div className='map'>
+  
   {topic}
     </div>
-  </div>)
+)
 }
 export default Body

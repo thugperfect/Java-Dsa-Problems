@@ -10,7 +10,7 @@ import Arrays from "../topics/Arrays"
 import Searching from "../topics/Searching"
 
 
-const Navbar = (  {onTopicChange}) =>{
+const Navbar = ({onTopicChange}) =>{
     const [click,setclick] = useState(false)
     const handleclick = () =>{
       setclick(!click);

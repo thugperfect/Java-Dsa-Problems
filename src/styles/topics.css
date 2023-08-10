@@ -1,0 +1,24 @@
+
+.map{
+   
+        width: 80%;
+        height: 1000px;
+        background-color: black;
+     
+}
+.topics-logo{
+    font-size: 25px;
+    color: white;
+    display: flex;
+margin: 20px;
+}
+.topics-body{
+  height: 100%;
+    background-color: aqua;
+    width: 100%;
+}
+.topics-body-topics{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid;
+}

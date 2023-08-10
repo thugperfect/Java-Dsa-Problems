@@ -37,8 +37,3 @@ justify-content: center;
 .body::-webkit-scrollbar{
 display: none;
 }
-.map{
-  width: 80%;
-  height: 1000px;
-  background-color: black;
-}
