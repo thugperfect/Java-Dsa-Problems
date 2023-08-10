@@ -1,5 +1,6 @@
 import '../styles/topics.css'
 import { useEffect } from 'react'
+import One from "../programs/firstJava/one"
 const FirstJava = () =>{
 
     

@@ -6,7 +6,7 @@ import Searching from "../topics/Searching"
 
 const Body = ({topic}) =>{
 
-   
+  
     return(<div className="body">
   
   {topic}
