@@ -1,4 +1,4 @@
-
+import Body from './components/Body';
 import './styles/App.css';
 import Navbar from './components/Navbar';
 import Topbar from './components/Topbar';
@@ -12,9 +12,7 @@ function App() {
 
 <div className='App'>
 <Navbar/>
-<div className="body">
-  
-</div>
+<Body/>
 </div>
 
 </div>

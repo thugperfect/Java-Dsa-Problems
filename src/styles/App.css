@@ -28,6 +28,17 @@ margin-right: 20px;
 color:black;
 border-left: 2px dashed;
 border-right: 2px dashed;
-padding: 10px
-}
+padding: 10px;
+overflow-y: scroll;
+display: flex;
+justify-content: center;
 
+}
+.body::-webkit-scrollbar{
+display: none;
+}
+.map{
+  width: 80%;
+  height: 1000px;
+  background-color: black;
+}
