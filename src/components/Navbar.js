@@ -11,7 +11,7 @@ const Navbar = () =>{
     }
     return(
     <div onClick={handleclick} className={(click)?'navbar-main':""}>
- <div className={(click) ? "navbar-wrapper-change": "navbar-wrapper" } >
+ <div className={(click) ? "navbar-wrapper-change": " navbar-wrapper" } >
 
 
 <div onClick={handleclick} className={(click) ? 'navbar-back-btn left':'navbar-back-btn ' }>
@@ -19,26 +19,23 @@ const Navbar = () =>{
 </div>
 
 <div className={(click) ? 'nav-btns':"hide" }>
-<div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
-  <div className='nav-btn'>vhjgvghcj</div>
+<div className='nav-btn'>First Java</div>
+  <div className='nav-btn'>Conditionals and Loops</div>
+  <div className='nav-btn'>Functions</div>
+  <div className='nav-btn'>Arrays</div>
+  <div className='nav-btn'>Searching</div>
+  <div className='nav-btn'>Sorting</div>
+  <div className='nav-btn'>Strings</div>
+  <div className='nav-btn'>Patterns</div>
+  <div className='nav-btn'>Recursion</div>
+  <div className='nav-btn'>Bitwise</div>
+  <div className='nav-btn'>Math</div>
+  <div className='nav-btn'>Complexities</div>
+  <div className='nav-btn'>Oop</div>
+  <div className='nav-btn'>Linked List</div>
+  <div className='nav-btn'>Stack and Queue</div>
+  <div className='nav-btn'>Trees</div>
+  
 </div>
 </div>
     </div>

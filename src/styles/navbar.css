@@ -14,11 +14,17 @@ height: 675px;
     border-radius: 100%;
 
     position: absolute;
+
     
+    }
+
+    .nav-bar-change{
+      animation: sidenav 2s forwards;
     }
     .navbar-wrapper-change{
       width: 300px;
     height: 80vh;
+   
    
   
     
@@ -84,5 +90,14 @@ height: 675px;
     100%{
       margin-left: 240px;
     
+    }
+  }
+
+  @keyframes sidenav {
+    0%{
+      width: 300px;
+    }
+    100%{
+      width: 0px;
     }
   }
