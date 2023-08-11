@@ -57,59 +57,59 @@ const ConditionalsAndLoops = ({onProgramChange}) =>{
     <div className="topics-logo">ConditionalsAndLoops</div>
     <div className='topics-body'>
         <div className='topics-body-topics'>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsOne qn={q1}/>)} className='topic-point-left'>1
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsOne qn={q1} backPage = {changeProgram}/>)} className='topic-point-left'>1
             
             <div className='topic-jist-left'>{q1}</div>
             </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwo qn={q2}/>)} className='topic-point-right'>2
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwo qn={q2} backPage = {changeProgram}/>)} className='topic-point-right'>2
             
             <div className='topic-jist-right'>{q2}</div></div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsThree qn={q3}/>)} className='topic-point-left'>3
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsThree qn={q3} backPage = {changeProgram}/>)} className='topic-point-left'>3
         <div className='topic-jist-left'>{q3}
 </div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsFour qn={q4}/>)} className='topic-point-right'>4
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsFour qn={q4} backPage = {changeProgram}/>)} className='topic-point-right'>4
             <div className='topic-jist-right'>
                 {q4}
             </div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsFive qn={q5}/>)} className='topic-point-left'>5
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsFive qn={q5} backPage = {changeProgram}/>)} className='topic-point-left'>5
         <div className='topic-jist-left'>
             {q5}
         </div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsSix qn={q6}/>)} className='topic-point-right'>6
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsSix qn={q6} backPage = {changeProgram}/>)} className='topic-point-right'>6
             
             <div className='topic-jist-right'>{q6}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsSeven qn={q7}/>)} className='topic-point-left'>7
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsSeven qn={q7} backPage = {changeProgram}/>)} className='topic-point-left'>7
         <div className='topic-jist-left'>{q7}</div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEight qn={q8}/>)} className='topic-point-right'>8
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEight qn={q8} backPage = {changeProgram}/>)} className='topic-point-right'>8
             <div className='topic-jist-right'>{q8}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsNine qn={q9}/>)} className='topic-point-left'>9
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsNine qn={q9} backPage = {changeProgram}/>)} className='topic-point-left'>9
         <div className='topic-jist-left'>{q9}</div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTen qn={q10}/>)} className='topic-point-right'>10
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTen qn={q10}backPage = {changeProgram}/>)} className='topic-point-right'>10
             <div className='topic-jist-right'>{q10}</div>
             </div>
             </div>
             <div className='topics-body-topics'>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEleven qn={q11}/>)} className='topic-point-left'>11
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEleven qn={q11} backPage = {changeProgram}/>)} className='topic-point-left'>11
             
             <div className='topic-jist-left'>{q11}</div>
             </div>
 
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwelve qn={q12}/>)} className='topic-point-right'>12
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwelve qn={q12} backPage = {changeProgram}/>)} className='topic-point-right'>12
             
             <div className='topic-jist-right'>{q12}</div></div>
         </div>
@@ -117,28 +117,28 @@ const ConditionalsAndLoops = ({onProgramChange}) =>{
 
            
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsThirteen qn={q13}/>)} className='topic-point-left'>13
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsThirteen qn={q13} backPage = {changeProgram}/>)} className='topic-point-left'>13
         <div className='topic-jist-left'>{q13}
 </div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsFourteen qn={q14}/>)} className='topic-point-right'>14
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsFourteen qn={q14} backPage = {changeProgram}/>)} className='topic-point-right'>14
             <div className='topic-jist-right'>{q14}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsFifteen qn={q15}/>)} className='topic-point-left'>15
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsFifteen qn={q15} backPage = {changeProgram}/>)} className='topic-point-left'>15
         <div className='topic-jist-left'>{q15}</div>
         </div>
-            <div  onClick={()=>changeProgram(<ConditionalsAndLoopsSixteen qn={q16}/>)} className='topic-point-right'>16
+            <div  onClick={()=>changeProgram(<ConditionalsAndLoopsSixteen qn={q16} backPage = {changeProgram}/>)} className='topic-point-right'>16
             
             <div className='topic-jist-right'>{q16}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsSeventeen qn={q17}/>)} className='topic-point-left'>17
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsSeventeen qn={q17} backPage = {changeProgram}/>)} className='topic-point-left'>17
         <div className='topic-jist-left'>{q17}</div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEighteen qn={q18}/>)} className='topic-point-right'>18
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEighteen qn={q18} backPage = {changeProgram}/>)} className='topic-point-right'>18
             <div className='topic-jist-right'>{q18}</div>
             </div>
         </div>
@@ -146,16 +146,16 @@ const ConditionalsAndLoops = ({onProgramChange}) =>{
   
 
             <div className='topics-body-topics'>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsNineteen qn={q19}/>)} className='topic-point-left'>19
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsNineteen qn={q19} backPage = {changeProgram}/>)} className='topic-point-left'>19
             
             <div className='topic-jist-left'>{q19}</div>
             </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwenty qn={q20}/>)} className='topic-point-right'>20
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwenty qn={q20} backPage = {changeProgram}/>)} className='topic-point-right'>20
             
             <div className='topic-jist-right'>{q20}</div></div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwentyone qn={q21}/>)} className='topic-point-left'>21
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwentyone qn={q21} backPage = {changeProgram}/>)} className='topic-point-left'>21
         <div className='topic-jist-left'>{q21}
 </div>
         </div>
