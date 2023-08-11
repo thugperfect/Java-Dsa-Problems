@@ -3,13 +3,14 @@ import '../../styles/topics.css'
 
 import { useState,useEffect } from 'react'
 const FirstJavaOne = ({qn}) =>{
-
+const url = window.location.href
+console.log(url);
         const [file,setFile] = useState("")
     
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch('https://java-dsa.onrender.com/javaPrograms/firstJava/One.java')
+        const res = await fetch(`${url}javaPrograms/firstJava/One.java`)
    
         const cont = await res.text();
         

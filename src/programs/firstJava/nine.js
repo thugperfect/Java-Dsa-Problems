@@ -2,11 +2,11 @@
 import { useState,useEffect } from "react"
 const FirstJavaNine = ({qn}) =>{
     const [file,setFile] = useState("")
-    
+    const url = window.location.href
     useEffect(()=>{
     async function fetchFile() {
         try{
-    const res = await fetch('http://localhost:3000/javaPrograms/firstJava/Nine.java')
+    const res = await fetch(`${url}javaPrograms/firstJava/Nine.java`)
 
     const cont = await res.text();
     

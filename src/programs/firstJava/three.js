@@ -1,11 +1,12 @@
 import { useState,useEffect } from "react"
 const FirstJavaThree = ({qn}) =>{
     const [file,setFile] = useState("")
+    const url = window.location.href
     
     useEffect(()=>{
     async function fetchFile() {
         try{
-    const res = await fetch('http://localhost:3000/javaPrograms/firstJava/Three.java')
+    const res = await fetch(`${url}javaPrograms/firstJava/Three.java`)
 
     const cont = await res.text();
     
