@@ -1,7 +1,29 @@
 .program-body{
     width: 100%;
 height: 100%;
+position: relative;
 }
 .program-content{
-    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.program-hint{
+ width: 100%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.337);
+   
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.program{
+
+}
+@media(min-width:800px){
+.program-hint{
+    width: 80%;
+}
 }
