@@ -1,8 +1,12 @@
 import '../../styles/programs.css'
 import '../../styles/topics.css'
-
+import FirstJava from '../../topics/FirstJava'
 import { useState,useEffect } from 'react'
-const FirstJavaOne = ({qn}) =>{
+const FirstJavaOne = ({qn,backPage}) =>{
+
+    const back = (page) =>{
+        backPage(page)
+    }
 const url = window.location.href
 console.log(url);
         const [file,setFile] = useState("")
@@ -34,6 +38,9 @@ console.log(url);
          
 
             </div>
+
+            <div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
+            <div className='program-btn'>Next</div>
         </div>
     
     </div>)
