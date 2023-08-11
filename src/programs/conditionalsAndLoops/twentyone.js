@@ -46,10 +46,10 @@ const ConditionalsAndLoopsTwentyone= ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-                
-                </div>
             <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<Functions/>)} className='program-btn'>Next Map</div>
+            <div onClick={() => back(<Functions/>)} className='program-btn'>Next Map</div> 
+                </div>
+            
         </div>
     
     </div>)
