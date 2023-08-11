@@ -4,7 +4,8 @@ import '../../styles/programs.css'
 import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
-import ConditionalsAndLoopsSeven from './six'
+import ConditionalsAndLoopsSeven from './seven'
+
 const ConditionalsAndLoopsSix = ({qn,backPage}) =>{
     const q7 = "Calculate Electricity Bill"
     const back = (page) =>{
