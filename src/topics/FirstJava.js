@@ -7,8 +7,45 @@ import FirstJavaFive from "../programs/firstJava/five";
 import FirstJavaSix from "../programs/firstJava/six";
 import FirstJavaSeven from "../programs/firstJava/seven";
 import FirstJavaEight from "../programs/firstJava/eight";
-import FirstJavaNine from "../programs/firstJava/nine";
+
+import { useState,useEffect } from 'react'
+
 const FirstJava = ({onProgramChange}) => {
+const [javaFile,setJavaFile] = useState(" ")
+
+const url = window.location.href
+const [file,setFile] = useState("")
+
+
+  const fileUrl = `${url}javaPrograms/firstJava/${javaFile}.java`
+ 
+
+
+  console.log("fileUrl "+fileUrl);
+
+      
+      useEffect(()=>{
+     
+async function fetchFile() {
+  try{
+      const res = await fetch(fileUrl)
+ 
+      const cont = await res.text();
+      
+      setFile(cont)
+      }
+      catch(err){
+      console.log(err);
+      }
+
+  }
+  
+        
+      
+  fetchFile() 
+  console.log(javaFile);
+},[javaFile,fileUrl])
+
 
 const q1 = "Write a program to print whether a number is even or odd, also take input from the user."
 const q2 = "Take name as input and print a greeting message for that particular name."
@@ -19,18 +56,66 @@ const q6 = "Input currency in rupees and output in USD."
 const q7 = "To calculate Fibonacci Series up to n numbers."
 const q8 = "To find out whether the given String is Palindrome or not."
 const q9 = "To find Armstrong Number between two given number."
-
+console.log(javaFile);
 
   const changeProgram = (prog) => {
     onProgramChange(prog);
   };
+  const handleProgramChangeOne =(n) =>{
+    changeProgram(<FirstJavaOne qn={q1} file={file} backPage={changeProgram}/>)
+    setJavaFile('One')
+  
+  }
+  const handleProgramChangeTwo = () =>{
+    changeProgram(<FirstJavaOne qn={q2} file ={file} backPage={changeProgram}/>)
+    setJavaFile('Two')
+    console.log(javaFile);
+  }
+  const handleProgramChangeThree = () =>{
+    changeProgram(<FirstJavaOne qn={q3} backPage={changeProgram}/>)
+    setJavaFile('Three')
+    console.log(javaFile);
+  }
+  const handleProgramChangeFour = () =>{
+    changeProgram(<FirstJavaOne qn={q4} backPage={changeProgram}/>)
+    setJavaFile('Four')
+    console.log(javaFile);
+  }
+  const handleProgramChangeFive = () =>{
+    changeProgram(<FirstJavaOne qn={q5} backPage={changeProgram}/>)
+    setJavaFile('Five')
+    console.log(javaFile);
+  }
+  const handleProgramChangeSix = () =>{
+    changeProgram(<FirstJavaOne qn={q6} backPage={changeProgram}/>)
+    setJavaFile('Six')
+    console.log(javaFile);
+  }
+  const handleProgramChangeSeven = () =>{
+    changeProgram(<FirstJavaOne qn={q7} backPage={changeProgram}/>)
+    setJavaFile('Seven')
+    console.log(javaFile);
+  }
+  const handleProgramChangeEight = () =>{
+    changeProgram(<FirstJavaOne qn={q8} backPage={changeProgram}/>)
+    setJavaFile('Eight')
+    console.log(javaFile);
+  }
+  const handleProgramChangeNine = () =>{
+    changeProgram(<FirstJavaOne qn={q9} backPage={changeProgram}/>)
+    setJavaFile('Nine')
+    console.log(javaFile);
+  }
+ 
   return (
+ 
     <div className="map">
+
       <div className="topics-logo">FirstJava</div>
       <div className="topics-body">
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaOne qn={q1} backPage={changeProgram}/>)}
+            onClick={handleProgramChangeOne}
             className="topic-point-left"
           >
             1
@@ -40,7 +125,7 @@ const q9 = "To find Armstrong Number between two given number."
           </div>
 
           <div
-            onClick={() => changeProgram(<FirstJavaTwo qn={q2}/>)}
+            onClick={handleProgramChangeTwo}
             className="topic-point-right"
           >
             2
@@ -51,7 +136,7 @@ const q9 = "To find Armstrong Number between two given number."
         </div>
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaThree qn={q3} />)}
+            onClick={handleProgramChangeThree}
             className="topic-point-left"
           >
             3
@@ -60,7 +145,7 @@ const q9 = "To find Armstrong Number between two given number."
             </div>
           </div>
           <div
-            onClick={() => changeProgram(<FirstJavaFour qn={q4} />)}
+            onClick={handleProgramChangeFour}
             className="topic-point-right"
           >
             4
@@ -71,7 +156,7 @@ const q9 = "To find Armstrong Number between two given number."
         </div>
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaFive qn={q5} />)}
+            onClick={handleProgramChangeFive}
             className="topic-point-left"
           >
             5
@@ -80,7 +165,7 @@ const q9 = "To find Armstrong Number between two given number."
             </div>
           </div>
           <div
-            onClick={() => changeProgram(<FirstJavaSix qn={q6}/>)}
+            onClick={handleProgramChangeSix}
             className="topic-point-right"
           >
             6
@@ -91,7 +176,7 @@ const q9 = "To find Armstrong Number between two given number."
         </div>
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaSeven qn={q7}/>)}
+            onClick={handleProgramChangeSeven}
             className="topic-point-left"
           >
             7
@@ -100,7 +185,7 @@ const q9 = "To find Armstrong Number between two given number."
             </div>
           </div>
           <div
-            onClick={() => changeProgram(<FirstJavaEight qn={q8}/>)}
+            onClick={handleProgramChangeEight}
             className="topic-point-right"
           >
             8
@@ -111,7 +196,7 @@ const q9 = "To find Armstrong Number between two given number."
         </div>
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaNine qn={q9}/>)}
+            onClick={handleProgramChangeNine}
             className="topic-point-left"
           >
             9
