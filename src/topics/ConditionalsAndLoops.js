@@ -27,106 +27,136 @@ const ConditionalsAndLoops = ({onProgramChange}) =>{
     const changeProgram = (prog) =>{
         onProgramChange(prog)
     }
+
+    const q1 = "Fibonacci Series In Java Programs"
+    const q2 = "Subtract the Product and Sum of Digits of an Integer"
+    const q3 = "Input a number and print all the factors of that number (use loops)."
+    const q4 = "Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)"
+    const q5 = "Take integer inputs till the user enters 0 and print the largest number from all."
+    const q6 = "Factorial Program In Java"
+    const q7 = "Calculate Electricity Bill"
+    const q8 = "Calculate Average Of N Numbers"
+    const q9 = "Calculate Discount Of Product"
+    const q10 = "Calculate Distance Between Two Points"
+    const q11 = "Calculate Commission Percentage"
+    const q12 = "Calculate CGPA Java Program"
+    const q13 = "Sum Of N Numbers"
+    const q14 = "Armstrong Number In Java"
+    const q15 = "Find Ncr & Npr"
+    const q16 = "Reverse A String In Java"
+    const q17 = "Find if a number is palindrome or not"
+    const q18 = "HCF & LCM Of Two Numbers Program"
+    const q19 = "Check Leap Year Or Not"
+    const q20 = "Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero."
+    const q21 = "Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August."
+ 
+
+    
+
     return(<div className='map'>
     <div className="topics-logo">ConditionalsAndLoops</div>
     <div className='topics-body'>
         <div className='topics-body-topics'>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsOne/>)} className='topic-point-left'>1
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsOne qn={q1}/>)} className='topic-point-left'>1
             
-            <div className='topic-jist-left'>Fibonacci Series In Java Programs</div>
+            <div className='topic-jist-left'>{q1}</div>
             </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwo/>)} className='topic-point-right'>2
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwo qn={q2}/>)} className='topic-point-right'>2
             
-            <div className='topic-jist-right'>Subtract the Product and Sum of Digits of an Integer</div></div>
+            <div className='topic-jist-right'>{q2}</div></div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsThree/>)} className='topic-point-left'>3
-        <div className='topic-jist-left'>Input a number and print all the factors of that number (use loops).
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsThree qn={q3}/>)} className='topic-point-left'>3
+        <div className='topic-jist-left'>{q3}
 </div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsFour/>)} className='topic-point-right'>4
-            <div className='topic-jist-right'>Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)</div>
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsFour qn={q4}/>)} className='topic-point-right'>4
+            <div className='topic-jist-right'>
+                {q4}
+            </div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsFive/>)} className='topic-point-left'>5
-        <div className='topic-jist-left'>Take integer inputs till the user enters 0 and print the largest number from all.</div>
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsFive qn={q5}/>)} className='topic-point-left'>5
+        <div className='topic-jist-left'>
+            {q5}
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsSix/>)} className='topic-point-right'>6
+        </div>
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsSix qn={q6}/>)} className='topic-point-right'>6
             
-            <div className='topic-jist-right'>Factorial Program In Java</div>
+            <div className='topic-jist-right'>{q6}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsSeven/>)} className='topic-point-left'>7
-        <div className='topic-jist-left'>Calculate Electricity Bill</div>
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsSeven qn={q7}/>)} className='topic-point-left'>7
+        <div className='topic-jist-left'>{q7}</div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEight/>)} className='topic-point-right'>8
-            <div className='topic-jist-right'>Calculate Average Of N Numbers</div>
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEight qn={q8}/>)} className='topic-point-right'>8
+            <div className='topic-jist-right'>{q8}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsNine/>)} className='topic-point-left'>9
-        <div className='topic-jist-left'>Calculate Discount Of Product</div>
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsNine qn={q9}/>)} className='topic-point-left'>9
+        <div className='topic-jist-left'>{q9}</div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTen/>)} className='topic-point-right'>10
-            <div className='topic-jist-right'>Calculate Distance Between Two Points</div>
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTen qn={q10}/>)} className='topic-point-right'>10
+            <div className='topic-jist-right'>{q10}</div>
             </div>
             </div>
             <div className='topics-body-topics'>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEleven/>)} className='topic-point-left'>11
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEleven qn={q11}/>)} className='topic-point-left'>11
             
-            <div className='topic-jist-left'>Calculate Commission Percentage</div>
+            <div className='topic-jist-left'>{q11}</div>
             </div>
 
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwelve/>)} className='topic-point-right'>12
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwelve qn={q12}/>)} className='topic-point-right'>12
             
-            <div className='topic-jist-right'>Calculate CGPA Java Program</div></div>
+            <div className='topic-jist-right'>{q12}</div></div>
         </div>
             </div>
 
            
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsThirteen/>)} className='topic-point-left'>13
-        <div className='topic-jist-left'>Sum Of N Numbers
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsThirteen qn={q13}/>)} className='topic-point-left'>13
+        <div className='topic-jist-left'>{q13}
 </div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsFourteen/>)} className='topic-point-right'>14
-            <div className='topic-jist-right'>Armstrong Number In Java</div>
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsFourteen qn={q14}/>)} className='topic-point-right'>14
+            <div className='topic-jist-right'>{q14}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsFifteen/>)} className='topic-point-left'>15
-        <div className='topic-jist-left'>Find Ncr & Npr</div>
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsFifteen qn={q15}/>)} className='topic-point-left'>15
+        <div className='topic-jist-left'>{q15}</div>
         </div>
-            <div  onClick={()=>changeProgram(<ConditionalsAndLoopsSixteen/>)} className='topic-point-right'>16
+            <div  onClick={()=>changeProgram(<ConditionalsAndLoopsSixteen qn={q16}/>)} className='topic-point-right'>16
             
-            <div className='topic-jist-right'>Reverse A String In Java</div>
+            <div className='topic-jist-right'>{q16}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsSeventeen/>)} className='topic-point-left'>17
-        <div className='topic-jist-left'>Find if a number is palindrome or not</div>
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsSeventeen qn={q17}/>)} className='topic-point-left'>17
+        <div className='topic-jist-left'>{q17}</div>
         </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEighteen/>)} className='topic-point-right'>18
-            <div className='topic-jist-right'>HCF & LCM Of Two Numbers Program</div>
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsEighteen qn={q18}/>)} className='topic-point-right'>18
+            <div className='topic-jist-right'>{q18}</div>
             </div>
         </div>
 
   
 
             <div className='topics-body-topics'>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsNineteen/>)} className='topic-point-left'>19
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsNineteen qn={q19}/>)} className='topic-point-left'>19
             
-            <div className='topic-jist-left'>Check Leap Year Or Not</div>
+            <div className='topic-jist-left'>{q19}</div>
             </div>
-            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwenty/>)} className='topic-point-right'>20
+            <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwenty qn={q20}/>)} className='topic-point-right'>20
             
-            <div className='topic-jist-right'>Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero.</div></div>
+            <div className='topic-jist-right'>{q20}</div></div>
         </div>
         <div className='topics-body-topics'>
-        <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwentyone/>)} className='topic-point-left'>21
-        <div className='topic-jist-left'>Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.
+        <div onClick={()=>changeProgram(<ConditionalsAndLoopsTwentyone qn={q21}/>)} className='topic-point-left'>21
+        <div className='topic-jist-left'>{q21}
 </div>
         </div>
             
