@@ -9,7 +9,7 @@ const FirstJavaOne = ({qn}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch('http://localhost:3000/javaPrograms/firstJava/One.java')
+        const res = await fetch('https://java-dsa.onrender.com/javaPrograms/firstJava/One.java')
    
         const cont = await res.text();
         
