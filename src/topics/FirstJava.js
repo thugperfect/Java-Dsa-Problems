@@ -30,7 +30,7 @@ const q9 = "To find Armstrong Number between two given number."
       <div className="topics-body">
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaOne qn={q1}/>)}
+            onClick={() => changeProgram(<FirstJavaOne qn={q1} backPage={changeProgram}/>)}
             className="topic-point-left"
           >
             1
