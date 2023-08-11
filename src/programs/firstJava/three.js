@@ -1,10 +1,29 @@
-
+import { useState,useEffect } from "react"
 const FirstJavaThree = ({qn}) =>{
+    const [file,setFile] = useState("")
+    
+    useEffect(()=>{
+    async function fetchFile() {
+        try{
+    const res = await fetch('http://localhost:3000/javaPrograms/Three.java')
+
+    const cont = await res.text();
+    
+    setFile(cont)
+    }
+    catch(err){
+    console.log(err);
+    }
+
+}
+ 
+fetchFile() 
+},[])
     return(<div className="program-body"><div className='topics-logo'>{qn}</div>
         <div className='program-content'>
 
-<div className='program-hint'></div>
-<div className='program-hint program'></div>
+
+<div className='program-hint program'><pre>{file}</pre></div>
 
 </div></div>)
 }

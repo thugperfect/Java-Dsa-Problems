@@ -1,16 +1,18 @@
 import '../../styles/programs.css'
 import '../../styles/topics.css'
+
 import { useState,useEffect } from 'react'
 const FirstJavaOne = ({qn}) =>{
 
-        const [file,setFile] = useState()
+        const [file,setFile] = useState("")
     
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch('../../javaPrograms/One.java')
+        const res = await fetch('http://localhost:3000/javaPrograms/One.java')
+   
         const cont = await res.text();
-        console.log(cont);
+        
         setFile(cont)
         }
         catch(err){
@@ -27,7 +29,8 @@ const FirstJavaOne = ({qn}) =>{
 
           
             <div className='program-hint program'>
-           {file}
+                <pre>  {file}</pre>
+         
 
             </div>
         </div>
