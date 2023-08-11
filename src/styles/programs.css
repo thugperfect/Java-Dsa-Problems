@@ -20,7 +20,9 @@ position: relative;
     margin-bottom: 30px;
 }
 .program{
-
+padding: 10px;
+color: aliceblue;
+font-size: large;
 }
 @media(min-width:800px){
 .program-hint{
