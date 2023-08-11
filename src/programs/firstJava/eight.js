@@ -6,7 +6,7 @@ const FirstJavaEight = ({qn}) =>{
     useEffect(()=>{
     async function fetchFile() {
         try{
-    const res = await fetch('http://localhost:3000/javaPrograms/Eight.java')
+    const res = await fetch('http://localhost:3000/javaPrograms/firstJava/Eight.java')
 
     const cont = await res.text();
     
