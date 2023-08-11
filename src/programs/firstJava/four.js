@@ -1,6 +1,11 @@
-
+import FirstJava from "../../topics/FirstJava"
 import { useState,useEffect } from "react"
-const FirstJavaFour = ({qn}) =>{
+import FirstJavaFive from "./five"
+const FirstJavaFour = ({qn,backPage}) =>{
+    const q5 = "Take 3 numbers as input and print the largest number."
+    const back = (page) =>{
+        backPage(page)
+    }
     const [file,setFile] = useState("")
     const url = window.location.href
     useEffect(()=>{
@@ -25,7 +30,8 @@ fetchFile()
 
 
 <div className='program-hint program'><pre>{file}</pre></div>
-
+<div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<FirstJavaFive qn = {q5} backPage={backPage}/>)} className='program-btn'>Next</div>
 </div></div>)
 }
 export default FirstJavaFour

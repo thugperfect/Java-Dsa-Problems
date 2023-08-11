@@ -1,6 +1,8 @@
 import { useState,useEffect } from "react"
 import FirstJava from "../../topics/FirstJava"
+import FirstJavaFour from "./four"
 const FirstJavaThree = ({qn,backPage}) =>{
+    const q4 = "Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)"
     const [file,setFile] = useState("")
     const url = window.location.href
     const back = (page) =>{
@@ -29,7 +31,7 @@ fetchFile()
 
 <div className='program-hint program'><pre>{file}</pre></div>
 <div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
-            <div className='program-btn'>Next</div>
+            <div onClick={() => back(<FirstJavaFour qn = {q4} backPage={backPage} />)} className='program-btn'>Next</div>
 </div></div>)
 }
 export default FirstJavaThree

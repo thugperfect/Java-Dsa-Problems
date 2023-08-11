@@ -1,6 +1,11 @@
-
+import FirstJava from "../../topics/FirstJava"
 import { useState,useEffect } from "react"
-const FirstJavaFive = ({qn}) =>{
+import FirstJavaSix from "./six"
+const FirstJavaFive = ({qn,backPage}) =>{
+    const q6 = "Input currency in rupees and output in USD."
+    const back = (page) =>{
+        backPage(page)
+    }
     const [file,setFile] = useState("")
     const url = window.location.href
     useEffect(()=>{
@@ -25,7 +30,8 @@ fetchFile()
 
 
 <div className='program-hint program'><pre>{file}</pre></div>
-
+<div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<FirstJavaSix qn = {q6} backPage={backPage} />)} className='program-btn'>Next</div>
 </div></div>)
 }
 export default FirstJavaFive

@@ -1,6 +1,10 @@
-
+import FirstJava from "../../topics/FirstJava"
 import { useState,useEffect } from "react"
-const FirstJavaNine = ({qn}) =>{
+import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
+const FirstJavaNine = ({qn,backPage}) =>{
+    const back = (page) =>{
+        backPage(page)
+    }
     const [file,setFile] = useState("")
     const url = window.location.href
     useEffect(()=>{
@@ -25,6 +29,8 @@ fetchFile()
 
 
 <div className='program-hint program'><pre>{file}</pre></div>
+<div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Next Map</div>
 
 </div></div>)
 }
