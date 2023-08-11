@@ -29,8 +29,11 @@ fetchFile()
 
 
 <div className='program-hint program'><pre>{file}</pre></div>
+<div className="program-btns">
 <div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Next Map</div>
+<div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Next Map</div> 
+</div>
+
 
 </div></div>)
 }

@@ -30,8 +30,11 @@ fetchFile()
     <div className='program-content'>
 
     <div className='program-hint program'><pre>{file}</pre></div>
+    <div className="program-btns">
     <div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
-            <div onClick={()=>back(<FirstJavaNine qn = {q9} backPage={backPage}/>)} className='program-btn'>Next</div>
+    <div onClick={()=>back(<FirstJavaNine qn = {q9} backPage={backPage}/>)} className='program-btn'>Next</div>
+</div>
+   
     </div></div>)
 }
 export default FirstJavaEight

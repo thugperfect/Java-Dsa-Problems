@@ -44,7 +44,9 @@ const ConditionalsAndLoopsSeventeen= ({qn,backPage}) =>{
          
 
             </div>
-
+            <div className='program-btns'>
+                
+                </div>
             <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
             <div onClick={() => back(<ConditionalsAndLoopsEighteen qn ={q18} backPage={backPage}/>)} className='program-btn'>Next</div>
         </div>

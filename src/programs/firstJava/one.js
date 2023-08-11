@@ -39,9 +39,9 @@ const FirstJavaOne = ({qn,backPage}) =>{
          
 
             </div>
-
-            <div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<FirstJavaTwo qn ={q2} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div className='program-btns'> <div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<FirstJavaTwo qn ={q2} backPage={backPage}/>)} className='program-btn'>Next</div></div>
+           
         </div>
     
     </div>)
