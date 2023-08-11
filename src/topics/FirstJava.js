@@ -1,6 +1,4 @@
 import "../styles/topics.css";
-import { useEffect, useState } from "react";
-import One from "../programs/firstJava/one";
 import FirstJavaOne from "../programs/firstJava/one";
 import FirstJavaTwo from "../programs/firstJava/two";
 import FirstJavaThree from "../programs/firstJava/three";
@@ -12,6 +10,16 @@ import FirstJavaEight from "../programs/firstJava/eight";
 import FirstJavaNine from "../programs/firstJava/nine";
 const FirstJava = ({onProgramChange}) => {
 
+const q1 = "Write a program to print whether a number is even or odd, also take input from the user."
+const q2 = "Take name as input and print a greeting message for that particular name."
+const q3 = "Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest."
+const q4 = "Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)"
+const q5 = "Take 3 numbers as input and print the largest number."
+const q6 = "Input currency in rupees and output in USD."
+const q7 = "To calculate Fibonacci Series up to n numbers."
+const q8 = "To find out whether the given String is Palindrome or not."
+const q9 = "To find Armstrong Number between two given number."
+
 
   const changeProgram = (prog) => {
     onProgramChange(prog);
@@ -22,97 +30,93 @@ const FirstJava = ({onProgramChange}) => {
       <div className="topics-body">
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaOne/>)}
+            onClick={() => changeProgram(<FirstJavaOne qn={q1}/>)}
             className="topic-point-left"
           >
             1
             <div className="topic-jist-left">
-              Write a program to print whether a number is even or odd, also
-              take input from the user.
+             {q1}
             </div>
           </div>
 
           <div
-            onClick={() => changeProgram(<FirstJavaTwo />)}
+            onClick={() => changeProgram(<FirstJavaTwo qn={q2}/>)}
             className="topic-point-right"
           >
             2
             <div className="topic-jist-right">
-              Take name as input and print a greeting message for that
-              particular name.
+            {q2}
             </div>
           </div>
         </div>
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaThree />)}
+            onClick={() => changeProgram(<FirstJavaThree qn={q3} />)}
             className="topic-point-left"
           >
             3
             <div className="topic-jist-left">
-              Write a program to input principal, time, and rate (P, T, R) from
-              the user and find Simple Interest.
+             {q3}
             </div>
           </div>
           <div
-            onClick={() => changeProgram(<FirstJavaFour />)}
+            onClick={() => changeProgram(<FirstJavaFour qn={q4} />)}
             className="topic-point-right"
           >
             4
             <div className="topic-jist-right">
-              Take in two numbers and an operator (+, -, *, /) and calculate the
-              value. (Use if conditions)
+            {q4}
             </div>
           </div>
         </div>
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaFive />)}
+            onClick={() => changeProgram(<FirstJavaFive qn={q5} />)}
             className="topic-point-left"
           >
             5
             <div className="topic-jist-left">
-              Take 2 numbers as input and print the largest number.
+             {q5}
             </div>
           </div>
           <div
-            onClick={() => changeProgram(<FirstJavaSix />)}
+            onClick={() => changeProgram(<FirstJavaSix qn={q6}/>)}
             className="topic-point-right"
           >
             6
             <div className="topic-jist-right">
-              Input currency in rupees and output in USD.
+        {q6}
             </div>
           </div>
         </div>
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaSeven />)}
+            onClick={() => changeProgram(<FirstJavaSeven qn={q7}/>)}
             className="topic-point-left"
           >
             7
             <div className="topic-jist-left">
-              To calculate Fibonacci Series up to n numbers.
+              {q7}
             </div>
           </div>
           <div
-            onClick={() => changeProgram(<FirstJavaEight />)}
+            onClick={() => changeProgram(<FirstJavaEight qn={q8}/>)}
             className="topic-point-right"
           >
             8
             <div className="topic-jist-right">
-              To find out whether the given String is Palindrome or not.
+              {q8}
             </div>
           </div>
         </div>
         <div className="topics-body-topics">
           <div
-            onClick={() => changeProgram(<FirstJavaNine />)}
+            onClick={() => changeProgram(<FirstJavaNine qn={q9}/>)}
             className="topic-point-left"
           >
             9
             <div className="topic-jist-left">
-              To find Armstrong Number between two given number.
+              {q9}
             </div>
           </div>
         </div>

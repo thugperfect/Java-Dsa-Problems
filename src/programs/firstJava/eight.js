@@ -1,4 +1,4 @@
-const FirstJavaEight = () =>{
-    return(<div className="logo">First java eight</div>)
+const FirstJavaEight = ({qn}) =>{
+    return(<div className="program-body"><div className='topics-logo'>{qn}</div></div>)
 }
 export default FirstJavaEight

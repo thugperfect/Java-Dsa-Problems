@@ -1,5 +1,5 @@
 
-const FirstJavaThree = () =>{
-    return(<div className="logo">First java three</div>)
+const FirstJavaThree = ({qn}) =>{
+    return(<div className="program-body"><div className='topics-logo'>{qn}</div></div>)
 }
 export default FirstJavaThree
