@@ -31,7 +31,7 @@ const Navbar = ({onTopicChange}) =>{
 </div>
 
 <div className={(click) ? 'nav-btns':"hide" }>
-<div onClick={() =>handleClick(<FirstJava/>)} className='nav-btn'>First Java</div>
+<div onClick={() =>handleClick(<FirstJava/>)} className='nav-btn' id="first-java">First Java</div>
   <div onClick={() =>handleClick(<ConditionalsAndLoops/>)} className='nav-btn'>Conditionals and Loops</div>
   <div onClick={() =>handleClick(<Functions/>)} className='nav-btn'>Functions</div>
   <div onClick={() =>handleClick(<Arrays/>)} className='nav-btn'>Arrays</div>
