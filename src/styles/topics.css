@@ -10,6 +10,7 @@
     font-size: 25px;
     color: white;
     display: flex;
+    justify-content: center;
 margin: 20px;
 }
 .topics-body{

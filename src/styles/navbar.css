@@ -40,6 +40,8 @@ height: 675px;
         border-radius: 100%;
         cursor: pointer;
         margin: 10px 0 10px 5px;
+        z-index: 1;
+        position: absolute;
 
       
       }
