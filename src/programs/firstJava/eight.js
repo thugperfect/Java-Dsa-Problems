@@ -26,7 +26,7 @@ const FirstJavaEight = ({qn,backPage}) =>{
 fetchFile() 
 },[])
 
-    return(<div className="program-body"><div className='topics-logo'>{qn}</div>    
+    return(<div className="program-body"><div className='topics-logo'>8.{qn}</div>    
     <div className='program-content'>
 
     <div className='program-hint program'><pre>{file}</pre></div>

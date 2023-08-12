@@ -25,7 +25,7 @@ const FirstJavaSeven = ({qn,backPage}) =>{
  
 fetchFile() 
 },[])
-    return(<div className="program-body"><div className='topics-logo'>{qn}</div>
+    return(<div className="program-body"><div className='topics-logo'>7.{qn}</div>
         <div className='program-content'>
 
 

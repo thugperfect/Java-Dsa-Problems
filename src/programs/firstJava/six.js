@@ -25,7 +25,7 @@ const FirstJavaSix = ({qn,backPage}) =>{
  
 fetchFile() 
 },[])
-    return(<div className="program-body"><div className='topics-logo'>{qn}</div>
+    return(<div className="program-body"><div className='topics-logo'>6.{qn}</div>
         <div className='program-content'>
 
 
