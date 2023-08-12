@@ -4,14 +4,18 @@
         width: 100%;
      height: max-content;
         background-color:black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
      
 }
 .topics-logo{
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     display: flex;
     justify-content: center;
 margin: 20px;
+width: 75%;
 }
 .topics-body{
   height: 100%;
