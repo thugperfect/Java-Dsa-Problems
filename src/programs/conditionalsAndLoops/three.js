@@ -38,8 +38,6 @@ const ConditionalsAndLoopsThree = ({qn,backPage}) =>{
           
             <div className='program-hint program'>
                 <pre>  {file}</pre>
-         
-
             </div>
             <div className='program-btns'>
             <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
