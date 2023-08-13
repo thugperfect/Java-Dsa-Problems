@@ -1,8 +1,6 @@
-//Factorial Program In Java
+
 package javaPrograms.conditionalsAndLoops;
-
 import java.util.Scanner;
-
 public class Six {
 public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
