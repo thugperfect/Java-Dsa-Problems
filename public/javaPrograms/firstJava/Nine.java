@@ -12,6 +12,7 @@ public class Nine {
            
             int rem3 = 0;
             while(clone>0){
+                
 
                 rem = clone%10;
                rem3 = rem3+rem*rem*rem;
