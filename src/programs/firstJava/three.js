@@ -3,7 +3,7 @@ import FirstJava from "../../topics/FirstJava"
 import FirstJavaFour from "./four"
 const FirstJavaThree = ({qn,backPage}) =>{
     const q4 = "Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)"
-    const [file,setFile] = useState("")
+    const [file,setFile] = useState("Loading...")
     const url = window.location.href
     const back = (page) =>{
         backPage(page)

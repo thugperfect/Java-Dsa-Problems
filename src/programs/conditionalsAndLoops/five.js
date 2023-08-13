@@ -12,7 +12,7 @@ const ConditionalsAndLoopsFive = ({qn,backPage}) =>{
     }
         const url = window.location.href
 
-        const [file,setFile] = useState("")
+        const [file,setFile] = useState("Loading...")
     
         useEffect(()=>{
         async function fetchFile() {
