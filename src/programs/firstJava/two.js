@@ -5,7 +5,7 @@ const FirstJavaTwo = ({qn,backPage}) =>{
     const q3 = "Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest."
     const url = window.location.href
 
-    const [file,setFile] = useState("Loading...")
+    const [file,setFile] = useState("Loading Java FIle...")
     const back = (page) =>{
         backPage(page)
     }

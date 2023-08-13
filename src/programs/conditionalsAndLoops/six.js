@@ -13,7 +13,7 @@ const ConditionalsAndLoopsSix = ({qn,backPage}) =>{
     }
         const url = window.location.href
 
-        const [file,setFile] = useState("Loading...")
+        const [file,setFile] = useState("Loading Java FIle...")
     
         useEffect(()=>{
         async function fetchFile() {

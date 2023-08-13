@@ -5,7 +5,7 @@ const FirstJavaNine = ({qn,backPage}) =>{
     const back = (page) =>{
         backPage(page)
     }
-    const [file,setFile] = useState("Loading...")
+    const [file,setFile] = useState("Loading Java FIle...")
     const url = window.location.href
     useEffect(()=>{
     async function fetchFile() {
