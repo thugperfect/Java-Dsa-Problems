@@ -6,9 +6,10 @@ import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 
 import ConditionalsAndLoopsEleven from './eleven'
-import Arrays from '../../topics/Arrays'
+import Arrays2 from '../../topics/Arrays2'
 import ArraysEleven from './eleven'
-const ArraysTen = ({qn,backPage}) =>{
+import Arrays2Eleven from './eleven'
+const Arrays2Ten = ({qn,backPage}) =>{
     const q11 = "11.Count Items Matching a Rule."
     const back = (page) =>{
         backPage(page)
@@ -45,12 +46,12 @@ const ArraysTen = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysEleven qn ={q11} backPage={backPage}/>)} className='program-btn'>Next</div>  
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Eleven qn ={q11} backPage={backPage}/>)} className='program-btn'>Next</div>  
                 </div>
             
         </div>
     
     </div>)
 }
-export default ArraysTen
+export default Arrays2Ten

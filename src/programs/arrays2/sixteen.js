@@ -5,11 +5,12 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsSeventeen from './seventeen'
-import Arrays from '../../topics/Arrays'
+import Arrays2 from '../../topics/Arrays2'
 import ArraysSeventeen from './seventeen'
+import Arrays2Seventeen from './seventeen'
 
 
-const ArraysSixteen = ({qn,backPage}) =>{
+const Arrays2Sixteen = ({qn,backPage}) =>{
     const q17 = "17. transpose matrix."
     const back = (page) =>{
         backPage(page)
@@ -46,12 +47,12 @@ const ArraysSixteen = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysSeventeen qn ={q17} backPage={backPage}/>)} className='program-btn'>Next</div> 
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Seventeen qn ={q17} backPage={backPage}/>)} className='program-btn'>Next</div> 
                 </div>
             
         </div>
     
     </div>)
 }
-export default ArraysSixteen
+export default Arrays2Sixteen

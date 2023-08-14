@@ -1,6 +1,6 @@
 import '../styles/topics.css'
 
-const Arrays = ({onProgramChange}) =>{
+const Arrays2 = ({onProgramChange}) =>{
     const q1 = "1.Find N Unique Integers Sum up to Zero"
     const q2 = "2.Lucky Number In a Matrix"
     const q3 = "3.Maximum Subarray"
@@ -118,4 +118,4 @@ const Arrays = ({onProgramChange}) =>{
     </div>
     </div>)
 }
-export default Arrays
+export default Arrays2

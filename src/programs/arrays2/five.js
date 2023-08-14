@@ -7,7 +7,9 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsSix from './six'
 import Arrays from '../../topics/Arrays'
 import ArraysSix from './six'
-const ArraysFive = ({qn,backPage}) =>{
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Six from './six'
+const Arrays2Five = ({qn,backPage}) =>{
     const q6 = "6.Kids With the Greatest Number of Candies."
     const back = (page) =>{
         backPage(page)
@@ -44,12 +46,12 @@ const ArraysFive = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysSix qn ={q6} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Six qn ={q6} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
            
         </div>
     
     </div>)
 }
-export default ArraysFive
+export default Arrays2Five

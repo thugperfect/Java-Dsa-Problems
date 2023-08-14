@@ -4,9 +4,10 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsThree from './three'
-import Arrays from '../../topics/Arrays'
+import Arrays2 from '../../topics/Arrays2'
 import ArraysThree from './three'
-const ArraysTwo = ({qn,backPage}) =>{
+import Arrays2Three from './three'
+const Arrays2Two = ({qn,backPage}) =>{
     const q3 = "3.Running Sum of 1d Array."
     const back = (page) =>{
         backPage(page)
@@ -43,12 +44,12 @@ const ArraysTwo = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysThree qn ={q3} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Three qn ={q3} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>
     
     </div>)
 }
-export default ArraysTwo
+export default Arrays2Two

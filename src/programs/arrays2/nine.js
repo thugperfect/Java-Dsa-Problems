@@ -7,8 +7,9 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTen from './ten'
 import Arrays from '../../topics/Arrays'
 import ArraysTen from './ten'
+import Arrays2 from '../../topics/Arrays2'
 
-const ArraysNine = ({qn,backPage}) =>{
+const Arrays2Nine = ({qn,backPage}) =>{
     const q10 = "10.Check if the Sentence Is Pangram."
     const back = (page) =>{
         backPage(page)
@@ -45,12 +46,12 @@ const ArraysNine = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysTen qn ={q10} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Nine qn ={q10} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
            
         </div>
     
     </div>)
 }
-export default ArraysNine
+export default Arrays2Nine

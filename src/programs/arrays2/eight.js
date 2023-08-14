@@ -7,6 +7,8 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsNine from './nine'
 import Arrays from '../../topics/Arrays'
 import ArraysNine from './nine'
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Nine from './nine'
 const ArraysEight = ({qn,backPage}) =>{
     const q9 = "9.Create Target Array in the Given Order."
     const back = (page) =>{
@@ -44,8 +46,8 @@ const ArraysEight = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysNine qn ={q9} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Nine qn ={q9} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>

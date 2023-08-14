@@ -7,9 +7,11 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTwelve from './twelve'
 import Arrays from '../../topics/Arrays'
 import ArraysTwelve from './twelve'
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Twelve from './twelve'
 
 
-const ArraysEleven = ({qn,backPage}) =>{
+const Arrays2Eleven = ({qn,backPage}) =>{
     const q12 = "12.Find the Highest Altitude. "
     const back = (page) =>{
         backPage(page)
@@ -46,12 +48,12 @@ const ArraysEleven = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysTwelve qn ={q12} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Twelve qn ={q12} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>
     
     </div>)
 }
-export default ArraysEleven
+export default Arrays2Eleven

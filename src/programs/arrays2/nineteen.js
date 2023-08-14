@@ -8,9 +8,11 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTwenty from './twenty'
 import Arrays from '../../topics/Arrays'
 import ArraysTwenty from './twenty'
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Twenty from './twenty'
 
 
-const ArraysNineteen= ({qn,backPage}) =>{
+const Arrays2Nineteen= ({qn,backPage}) =>{
     const q20 = "20.Determine Whether Matrix Can Be Obtained By Rotation."
     const back = (page) =>{
         backPage(page)
@@ -47,12 +49,12 @@ const ArraysNineteen= ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysTwenty qn ={q20} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Twenty qn ={q20} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
            
         </div>
     
     </div>)
 }
-export default ArraysNineteen
+export default Arrays2Nineteen

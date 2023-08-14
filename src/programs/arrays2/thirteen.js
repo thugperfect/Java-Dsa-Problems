@@ -5,12 +5,13 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsFourteen from './fourteen'
-import Arrays from '../../topics/Arrays'
+import Arrays2 from '../../topics/Arrays2'
 import ArraysFourteen from './fourteen'
+import Arrays2Fourteen from './fourteen'
 
 
 
-const ArraysThirteen = ({qn,backPage}) =>{
+const Arrays2Thirteen = ({qn,backPage}) =>{
     const q14 = "14.cells with odd values in a matrix."
     const back = (page) =>{
         backPage(page)
@@ -47,12 +48,12 @@ const ArraysThirteen = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysFourteen qn ={q14} backPage={backPage}/>)} className='program-btn'>Next</div> 
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Fourteen qn ={q14} backPage={backPage}/>)} className='program-btn'>Next</div> 
                 </div>
            
         </div>
     
     </div>)
 }
-export default ArraysThirteen
+export default Arrays2Thirteen

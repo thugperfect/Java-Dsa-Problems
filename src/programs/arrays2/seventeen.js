@@ -6,11 +6,12 @@ import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 
 import ConditionalsAndLoopsEighteen from './eighteen'
-import Arrays from '../../topics/Arrays'
+import Arrays2 from '../../topics/Arrays2'
 import ArraysEighteen from './eighteen'
+import Arrays2Eighteen from './eighteen'
 
 
-const ArraysSeventeen= ({qn,backPage}) =>{
+const Arrays2Seventeen= ({qn,backPage}) =>{
     const q18 = "18.Add to Array-Form of Integer."
     const back = (page) =>{
         backPage(page)
@@ -47,12 +48,12 @@ const ArraysSeventeen= ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysEighteen qn ={q18} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Eighteen qn ={q18} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
            
         </div>
     
     </div>)
 }
-export default ArraysSeventeen
+export default Arrays2Seventeen

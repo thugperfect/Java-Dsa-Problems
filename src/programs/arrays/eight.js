@@ -7,7 +7,7 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsNine from './nine'
 import Arrays from '../../topics/Arrays'
 import ArraysNine from './nine'
-const ArraysEight = ({qn,backPage}) =>{
+const Arrays2Eight = ({qn,backPage}) =>{
     const q9 = "9.Create Target Array in the Given Order."
     const back = (page) =>{
         backPage(page)
@@ -52,4 +52,4 @@ const ArraysEight = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ArraysEight
+export default Arrays2Eight

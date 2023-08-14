@@ -6,7 +6,9 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTwo from './two'
 import Arrays from '../../topics/Arrays'
 import ArraysTwo from './two'
-const ArraysOne = ({qn,backPage}) =>{
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Two from './two'
+const Arrays2One = ({qn,backPage}) =>{
     const q2 = "2.Concatenation of Array."
     const back = (page) =>{
         backPage(page)
@@ -43,8 +45,8 @@ const ArraysOne = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysTwo qn ={q2} backPage={backPage}/>)} className='program-btn'>Next</div>  
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Two qn ={q2} backPage={backPage}/>)} className='program-btn'>Next</div>  
             </div>
 
           
@@ -52,4 +54,4 @@ const ArraysOne = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ArraysOne
+export default Arrays2One

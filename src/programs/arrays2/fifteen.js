@@ -7,8 +7,10 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsSixteen from './sixteen'
 import Arrays from '../../topics/Arrays'
 import ArraysSixteen from './sixteen'
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Sixteen from './sixteen'
 
-const ArraysFifteen = ({qn,backPage}) =>{
+const Arrays2Fifteen = ({qn,backPage}) =>{
     const q16 = "16.find numbers with even number of digits."
     const back = (page) =>{
         backPage(page)
@@ -45,12 +47,12 @@ const ArraysFifteen = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysSixteen qn ={q16} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Sixteen qn ={q16} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>
     
     </div>)
 }
-export default ArraysFifteen
+export default Arrays2Fifteen

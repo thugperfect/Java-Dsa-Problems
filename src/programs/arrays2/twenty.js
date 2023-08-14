@@ -7,11 +7,12 @@ import { useState,useEffect } from 'react'
 
 
 import ConditionalsAndLoopsTwentyone from './twentyone'
-import Arrays from '../../topics/Arrays'
+import Arrays2 from '../../topics/Arrays2'
 import ArraysTwentyone from './twentyone'
+import Searching from '../../topics/Searching'
 
 
-const ArraysTwenty= ({qn,backPage}) =>{
+const Arrays2Twenty= ({qn,backPage}) =>{
     const q21 = "21.tow sum."
     const back = (page) =>{
         backPage(page)
@@ -48,12 +49,12 @@ const ArraysTwenty= ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysTwentyone qn ={q21} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Searching/>)} className='program-btn'>Next Map</div>
                 </div>
            
         </div>
     
     </div>)
 } 
-export default ArraysTwenty
+export default Arrays2Twenty

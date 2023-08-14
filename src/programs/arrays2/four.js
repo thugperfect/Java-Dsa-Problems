@@ -7,7 +7,9 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsFive from './five'
 import Arrays from '../../topics/Arrays'
 import ArraysFive from './five'
-const ArraysFour = ({qn,backPage}) =>{
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Five from './five'
+const Arrays2Four = ({qn,backPage}) =>{
     const q5 = "5.Shuffle the Array."
     const back = (page) =>{
         backPage(page)
@@ -44,12 +46,12 @@ const ArraysFour = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysFive qn ={q5} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Five qn ={q5} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>
     
     </div>)
 }
-export default ArraysFour 
+export default Arrays2Four 

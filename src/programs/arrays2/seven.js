@@ -7,7 +7,9 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsEight from './eight'
 import ArraysEight from './eight'
 import Arrays from '../../topics/Arrays'
-const ArraysSeven = ({qn,backPage}) =>{
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Eight from '../arrays/eight'
+const Arrays2Seven = ({qn,backPage}) =>{
     const q8 = "8.How Many Numbers Are Smaller Than the Current Number."
     const back = (page) =>{
         backPage(page)
@@ -44,12 +46,12 @@ const ArraysSeven = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysEight qn ={q8} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Eight qn ={q8} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>
     
     </div>)
 }
-export default ArraysSeven
+export default Arrays2Seven

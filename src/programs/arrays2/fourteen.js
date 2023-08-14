@@ -8,10 +8,12 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsFifteen from './fifteen'
 import Arrays from '../../topics/Arrays'
 import ArraysFifteen from './fifteen'
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Fifteen from './fifteen'
 
 
 
-const ArraysFourteen = ({qn,backPage}) =>{
+const Arrays2Fourteen = ({qn,backPage}) =>{
     const q15 = "15.matrix diagonal sum."
     const back = (page) =>{
         backPage(page)
@@ -48,12 +50,12 @@ const ArraysFourteen = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysFifteen qn ={q15} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Fifteen qn ={q15} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
            
         </div>
     
     </div>)
 }
-export default ArraysFourteen
+export default Arrays2Fourteen

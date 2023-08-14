@@ -9,9 +9,11 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsNineteen from './nineteen'
 import Arrays from '../../topics/Arrays'
 import ArraysNineteen from './nineteen'
+import Arrays2 from '../../topics/Arrays2'
+import Arrays2Nineteen from './nineteen'
 
 
-const ArraysEighteen= ({qn,backPage}) =>{
+const Arrays2Eighteen= ({qn,backPage}) =>{
     const q19 = "19.Maximum Population Year."
     const back = (page) =>{
         backPage(page)
@@ -47,12 +49,12 @@ const ArraysEighteen= ({qn,backPage}) =>{
             </div>
 
             <div className='program-btns'>
-            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ArraysNineteen qn ={q19} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Arrays2Nineteen qn ={q19} backPage={backPage}/>)} className='program-btn'>Next</div>
             </div>
             
         </div>
     
     </div>)
 }
-export default ArraysEighteen
+export default Arrays2Eighteen
