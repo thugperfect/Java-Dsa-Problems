@@ -35,6 +35,7 @@ const Navbar = ({onTopicChange}) =>{
   <div onClick={() =>handleClick(<ConditionalsAndLoops/>)} className='nav-btn'>Conditionals and Loops</div>
   <div onClick={() =>handleClick(<Functions/>)} className='nav-btn'>Functions</div>
   <div onClick={() =>handleClick(<Arrays/>)} className='nav-btn'>Arrays</div>
+  <div onClick={() =>handleClick(<Arrays/>)} className='nav-btn'>Arrays 2</div>
   <div onClick={() =>handleClick(<Searching/>)} className='nav-btn'>Searching</div>
   <div className='nav-btn'>Sorting</div>
   <div className='nav-btn'>Strings</div>
