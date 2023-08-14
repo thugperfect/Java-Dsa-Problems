@@ -9,7 +9,7 @@ import Arrays from '../../topics/Arrays'
 import ArraysSeven from './seven'
 
 const ArraysSix = ({qn,backPage}) =>{
-    const q7 = "Calculate Electricity Bill"
+    const q7 = "7.Number of Good Pairs."
     const back = (page) =>{
         backPage(page)
     }

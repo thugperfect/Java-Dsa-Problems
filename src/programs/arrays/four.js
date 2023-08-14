@@ -8,7 +8,7 @@ import ConditionalsAndLoopsFive from './five'
 import Arrays from '../../topics/Arrays'
 import ArraysFive from './five'
 const ArraysFour = ({qn,backPage}) =>{
-    const q5 = "Take integer inputs till the user enters 0 and print the largest number from all."
+    const q5 = "5.Shuffle the Array."
     const back = (page) =>{
         backPage(page)
     }

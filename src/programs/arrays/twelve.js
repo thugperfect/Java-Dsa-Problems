@@ -10,7 +10,7 @@ import ArraysThirteen from './thirteen'
 
 
 const ArraysTwelve = ({qn,backPage}) =>{
-    const q13 = "Sum Of N Numbers"
+    const q13 = "13.flipping an image."
     const back = (page) =>{
         backPage(page)
     }

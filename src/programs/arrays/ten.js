@@ -9,7 +9,7 @@ import ConditionalsAndLoopsEleven from './eleven'
 import Arrays from '../../topics/Arrays'
 import ArraysEleven from './eleven'
 const ArraysTen = ({qn,backPage}) =>{
-    const q11 = "Calculate Commission Percentage"
+    const q11 = "11.Count Items Matching a Rule."
     const back = (page) =>{
         backPage(page)
     }

@@ -10,7 +10,7 @@ import ArraysSeventeen from './seventeen'
 
 
 const ArraysSixteen = ({qn,backPage}) =>{
-    const q17 = "Find if a number is palindrome or not"
+    const q17 = "17. transpose matrix."
     const back = (page) =>{
         backPage(page)
     }

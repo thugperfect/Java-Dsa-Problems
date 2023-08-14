@@ -12,7 +12,7 @@ import ArraysNineteen from './nineteen'
 
 
 const ArraysEighteen= ({qn,backPage}) =>{
-    const q19 = "Check Leap Year Or Not"
+    const q19 = "19.Maximum Population Year."
     const back = (page) =>{
         backPage(page)
     }

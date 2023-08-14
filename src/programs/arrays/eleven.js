@@ -10,7 +10,7 @@ import ArraysTwelve from './twelve'
 
 
 const ArraysEleven = ({qn,backPage}) =>{
-    const q12 = "Calculate CGPA Java Program"
+    const q12 = "12.Find the Highest Altitude. "
     const back = (page) =>{
         backPage(page)
     }

@@ -9,7 +9,7 @@ import Arrays from '../../topics/Arrays'
 import ArraysTen from './ten'
 
 const ArraysNine = ({qn,backPage}) =>{
-    const q10 = "Calculate Distance Between Two Points"
+    const q10 = "10.Check if the Sentence Is Pangram."
     const back = (page) =>{
         backPage(page)
     }

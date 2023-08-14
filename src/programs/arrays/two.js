@@ -7,7 +7,7 @@ import ConditionalsAndLoopsThree from './three'
 import Arrays from '../../topics/Arrays'
 import ArraysThree from './three'
 const ArraysTwo = ({qn,backPage}) =>{
-    const q3 = "Input a number and print all the factors of that number (use loops)."
+    const q3 = "3.Running Sum of 1d Array."
     const back = (page) =>{
         backPage(page)
     }

@@ -11,7 +11,7 @@ import ArraysTwenty from './twenty'
 
 
 const ArraysNineteen= ({qn,backPage}) =>{
-    const q20 = "Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero."
+    const q20 = "20.Determine Whether Matrix Can Be Obtained By Rotation."
     const back = (page) =>{
         backPage(page)
     }

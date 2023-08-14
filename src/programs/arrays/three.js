@@ -8,7 +8,7 @@ import ConditionalsAndLoopsFour from './four'
 import Arrays from '../../topics/Arrays'
 import ArraysFour from './four'
 const ArraysThree = ({qn,backPage}) =>{
-    const q4 = "Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)"
+    const q4 = "4.Richest Customer Wealth."
     const back = (page) =>{
         backPage(page)
     }

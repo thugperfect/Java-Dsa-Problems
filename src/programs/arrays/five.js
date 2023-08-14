@@ -8,7 +8,7 @@ import ConditionalsAndLoopsSix from './six'
 import Arrays from '../../topics/Arrays'
 import ArraysSix from './six'
 const ArraysFive = ({qn,backPage}) =>{
-    const q6 = "Factorial Program In Java"
+    const q6 = "6.Kids With the Greatest Number of Candies."
     const back = (page) =>{
         backPage(page)
     }

@@ -11,7 +11,7 @@ import ArraysFourteen from './fourteen'
 
 
 const ArraysThirteen = ({qn,backPage}) =>{
-    const q14 = "Armstrong Number In Java"
+    const q14 = "14.cells with odd values in a matrix."
     const back = (page) =>{
         backPage(page)
     }

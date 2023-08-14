@@ -8,7 +8,7 @@ import ConditionalsAndLoopsEight from './eight'
 import ArraysEight from './eight'
 import Arrays from '../../topics/Arrays'
 const ArraysSeven = ({qn,backPage}) =>{
-    const q8 = "Calculate Average Of N Numbers"
+    const q8 = "8.How Many Numbers Are Smaller Than the Current Number."
     const back = (page) =>{
         backPage(page)
     }

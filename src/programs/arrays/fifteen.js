@@ -9,7 +9,7 @@ import Arrays from '../../topics/Arrays'
 import ArraysSixteen from './sixteen'
 
 const ArraysFifteen = ({qn,backPage}) =>{
-    const q16 = "Reverse A String In Java"
+    const q16 = "16.find numbers with even number of digits."
     const back = (page) =>{
         backPage(page)
     }

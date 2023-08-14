@@ -12,7 +12,7 @@ import ArraysFifteen from './fifteen'
 
 
 const ArraysFourteen = ({qn,backPage}) =>{
-    const q15 = "Find Ncr & Npr"
+    const q15 = "15.matrix diagonal sum."
     const back = (page) =>{
         backPage(page)
     }

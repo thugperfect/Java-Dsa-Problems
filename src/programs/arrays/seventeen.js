@@ -11,7 +11,7 @@ import ArraysEighteen from './eighteen'
 
 
 const ArraysSeventeen= ({qn,backPage}) =>{
-    const q18 = "HCF & LCM Of Two Numbers Program"
+    const q18 = "18.Add to Array-Form of Integer."
     const back = (page) =>{
         backPage(page)
     }
