@@ -7,6 +7,8 @@ import { useState,useEffect } from 'react'
 
 
 import ConditionalsAndLoopsNineteen from './nineteen'
+import Arrays from '../../topics/Arrays'
+import ArraysNineteen from './nineteen'
 
 
 const ArraysEighteen= ({qn,backPage}) =>{
@@ -42,13 +44,12 @@ const ArraysEighteen= ({qn,backPage}) =>{
           
             <div className='program-hint program'>
                 <pre>  {file}</pre>
-         
-
             </div>
+
             <div className='program-btns'>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsNineteen qn ={q19} backPage={backPage}/>)} className='program-btn'>Next</div>
-                </div>
+            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<ArraysNineteen qn ={q19} backPage={backPage}/>)} className='program-btn'>Next</div>
+            </div>
             
         </div>
     

@@ -5,6 +5,8 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsFour from './four'
+import Arrays from '../../topics/Arrays'
+import ArraysFour from './four'
 const ArraysThree = ({qn,backPage}) =>{
     const q4 = "Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)"
     const back = (page) =>{
@@ -40,8 +42,8 @@ const ArraysThree = ({qn,backPage}) =>{
                 <pre>  {file}</pre>
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsFour qn ={q4} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<ArraysFour qn ={q4} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
            
         </div>

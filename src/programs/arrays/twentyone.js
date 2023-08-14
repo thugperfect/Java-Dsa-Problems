@@ -6,6 +6,8 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import Functions from '../../topics/Functions'
+import Arrays from '../../topics/Arrays'
+import Searching from "../../topics/Searching"
 
 
 
@@ -46,8 +48,8 @@ const ArraysTwentyone= ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<Functions/>)} className='program-btn'>Next Map</div> 
+            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<Searching/>)} className='program-btn'>Next Map</div> 
                 </div>
             
         </div>

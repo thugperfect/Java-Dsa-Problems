@@ -4,6 +4,8 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTwo from './two'
+import Arrays from '../../topics/Arrays'
+import ArraysTwo from './two'
 const ArraysOne = ({qn,backPage}) =>{
    const q2 = "Subtract the Product and Sum of Digits of an Integer"
     const back = (page) =>{
@@ -41,8 +43,8 @@ const ArraysOne = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsTwo qn ={q2} backPage={backPage}/>)} className='program-btn'>Next</div>  
+            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<ArraysTwo qn ={q2} backPage={backPage}/>)} className='program-btn'>Next</div>  
             </div>
 
           

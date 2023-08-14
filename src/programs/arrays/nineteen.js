@@ -6,6 +6,8 @@ import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 
 import ConditionalsAndLoopsTwenty from './twenty'
+import Arrays from '../../topics/Arrays'
+import ArraysTwenty from './twenty'
 
 
 const ArraysNineteen= ({qn,backPage}) =>{
@@ -45,8 +47,8 @@ const ArraysNineteen= ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsTwenty qn ={q20} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<ArraysTwenty qn ={q20} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
            
         </div>

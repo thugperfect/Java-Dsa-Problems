@@ -5,6 +5,8 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsSixteen from './sixteen'
+import Arrays from '../../topics/Arrays'
+import ArraysSixteen from './sixteen'
 
 const ArraysFifteen = ({qn,backPage}) =>{
     const q16 = "Reverse A String In Java"
@@ -43,8 +45,8 @@ const ArraysFifteen = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsSixteen qn ={q16} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<ArraysSixteen qn ={q16} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>

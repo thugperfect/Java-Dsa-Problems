@@ -5,6 +5,8 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsSeven from './seven'
+import Arrays from '../../topics/Arrays'
+import ArraysSeven from './seven'
 
 const ArraysSix = ({qn,backPage}) =>{
     const q7 = "Calculate Electricity Bill"
@@ -43,8 +45,8 @@ const ArraysSix = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsSeven qn ={q7} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<ArraysSeven qn ={q7} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>

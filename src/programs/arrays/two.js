@@ -4,6 +4,8 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsThree from './three'
+import Arrays from '../../topics/Arrays'
+import ArraysThree from './three'
 const ArraysTwo = ({qn,backPage}) =>{
     const q3 = "Input a number and print all the factors of that number (use loops)."
     const back = (page) =>{
@@ -41,8 +43,8 @@ const ArraysTwo = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsThree qn ={q3} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<ArraysThree qn ={q3} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>
