@@ -12,7 +12,7 @@ import Arrays2Eighteen from './eighteen'
 
 
 const Arrays2Seventeen= ({qn,backPage}) =>{
-    const q18 = "18.Add to Array-Form of Integer."
+    const q18 = "18.Max Value of Equation"
     const back = (page) =>{
         backPage(page)
     }

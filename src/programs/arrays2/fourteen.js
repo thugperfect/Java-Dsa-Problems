@@ -14,7 +14,7 @@ import Arrays2Fifteen from './fifteen'
 
 
 const Arrays2Fourteen = ({qn,backPage}) =>{
-    const q15 = "15.matrix diagonal sum."
+    const q15 = "15.Rotate Array"
     const back = (page) =>{
         backPage(page)
     }

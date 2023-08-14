@@ -11,7 +11,7 @@ import Arrays2 from '../../topics/Arrays2'
 import Arrays2Sixteen from './sixteen'
 
 const Arrays2Fifteen = ({qn,backPage}) =>{
-    const q16 = "16.find numbers with even number of digits."
+    const q16 = "16.Sort Colors"
     const back = (page) =>{
         backPage(page)
     }

@@ -12,7 +12,7 @@ import Arrays2Twelve from './twelve'
 
 
 const Arrays2Eleven = ({qn,backPage}) =>{
-    const q12 = "12.Find the Highest Altitude. "
+    const q12 = "12.Product of Array Except Self"
     const back = (page) =>{
         backPage(page)
     }

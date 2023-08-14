@@ -6,11 +6,11 @@ import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTen from './ten'
 import Arrays from '../../topics/Arrays'
-import ArraysTen from './ten'
+import Arrays2Ten from './ten'
 import Arrays2 from '../../topics/Arrays2'
 
 const Arrays2Nine = ({qn,backPage}) =>{
-    const q10 = "10.Check if the Sentence Is Pangram."
+    const q10 = "10.Spiral Matrix III"
     const back = (page) =>{
         backPage(page)
     }
@@ -47,7 +47,7 @@ const Arrays2Nine = ({qn,backPage}) =>{
             </div>
             <div className='program-btns'>
             <div onClick={() => back(<Arrays2/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<Arrays2Nine qn ={q10} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays2Ten qn ={q10} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
            
         </div>

@@ -5,15 +5,13 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 
-
-import ConditionalsAndLoopsTwentyone from './twentyone'
 import Arrays2 from '../../topics/Arrays2'
-import ArraysTwentyone from './twentyone'
+
 import Searching from '../../topics/Searching'
 
 
 const Arrays2Twenty= ({qn,backPage}) =>{
-    const q21 = "21.tow sum."
+
     const back = (page) =>{
         backPage(page)
     }

@@ -9,7 +9,7 @@ import Arrays2 from '../../topics/Arrays2'
 import ArraysFour from './four'
 import Arrays2Four from './four'
 const Arrays2Three = ({qn,backPage}) =>{
-    const q4 = "4.Richest Customer Wealth."
+    const q4 = "4.Reshape the Matrix"
     const back = (page) =>{
         backPage(page)
     }

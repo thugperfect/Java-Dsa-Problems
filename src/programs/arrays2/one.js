@@ -9,7 +9,7 @@ import ArraysTwo from './two'
 import Arrays2 from '../../topics/Arrays2'
 import Arrays2Two from './two'
 const Arrays2One = ({qn,backPage}) =>{
-    const q2 = "2.Concatenation of Array."
+    const q2 = "2.Lucky Number In a Matrix"
     const back = (page) =>{
         backPage(page)
     }

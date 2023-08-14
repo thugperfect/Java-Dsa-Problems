@@ -8,7 +8,7 @@ import Arrays2 from '../../topics/Arrays2'
 import ArraysThree from './three'
 import Arrays2Three from './three'
 const Arrays2Two = ({qn,backPage}) =>{
-    const q3 = "3.Running Sum of 1d Array."
+    const q3 = "3.Maximum Subarray"
     const back = (page) =>{
         backPage(page)
     }

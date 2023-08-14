@@ -10,7 +10,7 @@ import Arrays from '../../topics/Arrays'
 import Arrays2 from '../../topics/Arrays2'
 import Arrays2Eight from '../arrays/eight'
 const Arrays2Seven = ({qn,backPage}) =>{
-    const q8 = "8.How Many Numbers Are Smaller Than the Current Number."
+    const q8 = "8.Spiral Matrix"
     const back = (page) =>{
         backPage(page)
     }

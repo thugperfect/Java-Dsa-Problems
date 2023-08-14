@@ -10,7 +10,7 @@ import ArraysFive from './five'
 import Arrays2 from '../../topics/Arrays2'
 import Arrays2Five from './five'
 const Arrays2Four = ({qn,backPage}) =>{
-    const q5 = "5.Shuffle the Array."
+    const q5 = "5.Plus One"
     const back = (page) =>{
         backPage(page)
     }

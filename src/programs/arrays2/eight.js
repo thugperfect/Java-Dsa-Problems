@@ -4,13 +4,12 @@ import '../../styles/programs.css'
 import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
-import ConditionalsAndLoopsNine from './nine'
-import Arrays from '../../topics/Arrays'
-import ArraysNine from './nine'
+
+
 import Arrays2 from '../../topics/Arrays2'
 import Arrays2Nine from './nine'
-const ArraysEight = ({qn,backPage}) =>{
-    const q9 = "9.Create Target Array in the Given Order."
+const Arrays2Eight = ({qn,backPage}) =>{
+    const q9 = "9.Spiral Matrix II"
     const back = (page) =>{
         backPage(page)
     }
@@ -54,4 +53,4 @@ const ArraysEight = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ArraysEight
+export default Arrays2Eight

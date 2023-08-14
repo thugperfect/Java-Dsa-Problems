@@ -13,7 +13,8 @@ import Arrays2Twenty from './twenty'
 
 
 const Arrays2Nineteen= ({qn,backPage}) =>{
-    const q20 = "20.Determine Whether Matrix Can Be Obtained By Rotation."
+    const q20 = "20.First Missing Positive"
+   
     const back = (page) =>{
         backPage(page)
     }

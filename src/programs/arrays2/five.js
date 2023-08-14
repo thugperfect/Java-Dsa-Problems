@@ -10,7 +10,8 @@ import ArraysSix from './six'
 import Arrays2 from '../../topics/Arrays2'
 import Arrays2Six from './six'
 const Arrays2Five = ({qn,backPage}) =>{
-    const q6 = "6.Kids With the Greatest Number of Candies."
+  
+    const q6 = "6.Remove Duplicates from Sorted Array"
     const back = (page) =>{
         backPage(page)
     }

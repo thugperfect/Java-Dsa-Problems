@@ -12,7 +12,7 @@ import Arrays2Fourteen from './fourteen'
 
 
 const Arrays2Thirteen = ({qn,backPage}) =>{
-    const q14 = "14.cells with odd values in a matrix."
+    const q14 = "14.Jump Game"
     const back = (page) =>{
         backPage(page)
     }

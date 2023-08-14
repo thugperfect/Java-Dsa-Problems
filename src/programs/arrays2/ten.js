@@ -10,7 +10,7 @@ import Arrays2 from '../../topics/Arrays2'
 import ArraysEleven from './eleven'
 import Arrays2Eleven from './eleven'
 const Arrays2Ten = ({qn,backPage}) =>{
-    const q11 = "11.Count Items Matching a Rule."
+    const q11 = "11.Set Matrix Zeroes"
     const back = (page) =>{
         backPage(page)
     }

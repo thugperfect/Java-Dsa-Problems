@@ -11,7 +11,7 @@ import Arrays2Thirteen from './thirteen'
 
 
 const Arrays2Twelve = ({qn,backPage}) =>{
-    const q13 = "13.flipping an image."
+    const q13 = "13.Find First and Last Position of Element in Sorted Array"
     const back = (page) =>{
         backPage(page)
     }

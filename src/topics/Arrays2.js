@@ -6,7 +6,7 @@ import Arrays2Four from '../programs/arrays2/four'
 import Arrays2Five from '../programs/arrays2/five'
 import Arrays2Six from '../programs/arrays2/six'
 import Arrays2Seven from '../programs/arrays2/seven'
-import Arrays2Eight from '../programs/arrays/eight'
+import Arrays2Eight from '../programs/arrays2/eight'
 import Arrays2Nine from '../programs/arrays2/nine'
 import Arrays2Ten from '../programs/arrays2/ten'
 import Arrays2Eleven from '../programs/arrays2/eleven'
@@ -48,7 +48,7 @@ const Arrays2 = ({onProgramChange}) =>{
     }
 
     return(<div className='map'>
-    <div className="topics-logo">Arrays</div>
+    <div className="topics-logo">Arrays 2</div>
     <div className='topics-body'>
         <div className='topics-body-topics'>
             <div onClick={() => changeProgram(<Arrays2One qn={q1} backPage={changeProgram}/>)} className='topic-point-left'>1

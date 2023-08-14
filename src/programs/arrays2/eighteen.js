@@ -14,7 +14,7 @@ import Arrays2Nineteen from './nineteen'
 
 
 const Arrays2Eighteen= ({qn,backPage}) =>{
-    const q19 = "19.Maximum Population Year."
+    const q19 = "19.First Missing Positive"
     const back = (page) =>{
         backPage(page)
     }

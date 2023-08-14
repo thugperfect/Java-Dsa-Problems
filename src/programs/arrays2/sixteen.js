@@ -11,7 +11,7 @@ import Arrays2Seventeen from './seventeen'
 
 
 const Arrays2Sixteen = ({qn,backPage}) =>{
-    const q17 = "17. transpose matrix."
+    const q17 = "17.House Robber"
     const back = (page) =>{
         backPage(page)
     }

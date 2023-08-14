@@ -10,7 +10,7 @@ import ArraysSeven from './seven'
 import Arrays2Seven from './seven'
 
 const Arrays2Six = ({qn,backPage}) =>{
-    const q7 = "7.Number of Good Pairs."
+    const q7 = "7.Minimum Cost to Move Chips to The Same Position"
     const back = (page) =>{
         backPage(page)
     }
