@@ -19,7 +19,7 @@ const ArraysSeven = ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/conditionalsAndLoops/Seven.java`)
+        const res = await fetch(`${url}javaPrograms/arrays/Seven.java`)
    
         const cont = await res.text();
         

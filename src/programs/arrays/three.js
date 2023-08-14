@@ -19,7 +19,7 @@ const ArraysThree = ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/conditionalsAndLoops/Three.java`)
+        const res = await fetch(`${url}javaPrograms/arrays/Three.java`)
    
         const cont = await res.text();
         

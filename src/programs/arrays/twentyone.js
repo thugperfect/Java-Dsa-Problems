@@ -23,7 +23,7 @@ const ArraysTwentyone= ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/conditionalsAndLoops/Twentyone.java`)
+        const res = await fetch(`${url}javaPrograms/arrays/Twentyone.java`)
    
         const cont = await res.text();
         
