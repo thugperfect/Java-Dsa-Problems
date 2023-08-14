@@ -5,6 +5,8 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTwelve from './twelve'
+import Arrays from '../../topics/Arrays'
+import ArraysTwelve from './twelve'
 
 
 const ArraysEleven = ({qn,backPage}) =>{
@@ -34,7 +36,7 @@ const ArraysEleven = ({qn,backPage}) =>{
     fetchFile() 
   },[])
     return(<div className="program-body">
-        <div className='topics-logo'>11.{qn}</div>
+        <div className='topics-logo'>{qn}</div>
         <div className='program-content'>
 
           
@@ -44,8 +46,8 @@ const ArraysEleven = ({qn,backPage}) =>{
 
             </div>
             <div className='program-btns'>
-            <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsTwelve qn ={q12} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<ArraysTwelve qn ={q12} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
             
         </div>
