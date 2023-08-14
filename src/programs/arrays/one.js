@@ -4,7 +4,7 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTwo from './two'
-const ConditionalsAndLoopsOne = ({qn,backPage}) =>{
+const ArraysOne = ({qn,backPage}) =>{
    const q2 = "Subtract the Product and Sum of Digits of an Integer"
     const back = (page) =>{
         backPage(page)
@@ -50,4 +50,4 @@ const ConditionalsAndLoopsOne = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsOne
+export default ArraysOne

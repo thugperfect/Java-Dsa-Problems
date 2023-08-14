@@ -27,44 +27,90 @@ const Arrays = () =>{
         <div className='topics-body-topics'>
             <div className='topic-point-left'>1
             
-            <div className='topic-jist-left'></div>
+            <div className='topic-jist-left'>{q1}</div>
             </div>
             <div className='topic-point-right'>2
             
-            <div className='topic-jist-right'></div></div>
+            <div className='topic-jist-right'>{q2}</div></div>
         </div>
         <div className='topics-body-topics'>
         <div className='topic-point-left'>3
-        <div className='topic-jist-left'></div>
+        <div className='topic-jist-left'>{q3}</div>
         </div>
             <div className='topic-point-right'>4
-            <div className='topic-jist-right'></div>
+            <div className='topic-jist-right'>{q4}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
         <div className='topic-point-left'>5
-        <div className='topic-jist-left'></div>
+        <div className='topic-jist-left'>{q5}</div>
         </div>
             <div className='topic-point-right'>6
             
-            <div className='topic-jist-right'></div>
+            <div className='topic-jist-right'>{q6}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
         <div className='topic-point-left'>7
-        <div className='topic-jist-left'></div>
+        <div className='topic-jist-left'>{q7}</div>
         </div>
             <div className='topic-point-right'>8
-            <div className='topic-jist-right'></div>
+            <div className='topic-jist-right'>{q8}</div>
             </div>
         </div>
         <div className='topics-body-topics'>
         <div className='topic-point-left'>9
-        <div className='topic-jist-left'></div>
+        <div className='topic-jist-left'>{q9}</div>
         </div>
             <div className='topic-point-right'>10
-            <div className='topic-jist-right'></div>
+            <div className='topic-jist-right'>{q10}</div>
             </div>
+        </div>
+        <div className='topics-body-topics'>
+        <div className='topic-point-left'>11
+        <div className='topic-jist-left'>{q11}</div>
+        </div>
+            <div className='topic-point-right'>12
+            <div className='topic-jist-right'>{q12}</div>
+            </div>
+        </div>
+        <div className='topics-body-topics'>
+        <div className='topic-point-left'>13
+        <div className='topic-jist-left'>{q13}</div>
+        </div>
+            <div className='topic-point-right'>14
+            <div className='topic-jist-right'>{q14}</div>
+            </div>
+        </div>
+        <div className='topics-body-topics'>
+        <div className='topic-point-left'>15
+        <div className='topic-jist-left'>{q15}</div>
+        </div>
+            <div className='topic-point-right'>16
+            <div className='topic-jist-right'>{q16}</div>
+            </div>
+        </div>
+        <div className='topics-body-topics'>
+        <div className='topic-point-left'>17
+        <div className='topic-jist-left'>{q17}</div>
+        </div>
+            <div className='topic-point-right'>18
+            <div className='topic-jist-right'>{q18}</div>
+            </div>
+        </div>
+        <div className='topics-body-topics'>
+        <div className='topic-point-left'>19
+        <div className='topic-jist-left'>{q19}</div>
+        </div>
+            <div className='topic-point-right'>20
+            <div className='topic-jist-right'>{q20}</div>
+            </div>
+        </div>
+        <div className='topics-body-topics'>
+        <div className='topic-point-left'>21
+        <div className='topic-jist-left'>{q21}</div>
+        </div>
+         
         </div>
         
 
