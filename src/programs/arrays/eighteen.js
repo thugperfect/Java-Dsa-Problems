@@ -5,12 +5,12 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 
-import ConditionalsAndLoopsFifteen from './fifteen'
+
+import ConditionalsAndLoopsNineteen from './nineteen'
 
 
-
-const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
-    const q15 = "Find Ncr & Npr"
+const ConditionalsAndLoopsEighteen= ({qn,backPage}) =>{
+    const q19 = "Check Leap Year Or Not"
     const back = (page) =>{
         backPage(page)
     }
@@ -21,7 +21,7 @@ const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/conditionalsAndLoops/Fourteen.java`)
+        const res = await fetch(`${url}javaPrograms/conditionalsAndLoops/Eighteen.java`)
    
         const cont = await res.text();
         
@@ -36,7 +36,7 @@ const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
     fetchFile() 
   },[])
     return(<div className="program-body">
-        <div className='topics-logo'>14.{qn}</div>
+        <div className='topics-logo'>18.{qn}</div>
         <div className='program-content'>
 
           
@@ -47,11 +47,11 @@ const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
             </div>
             <div className='program-btns'>
             <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsFifteen qn ={q15} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<ConditionalsAndLoopsNineteen qn ={q19} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
-           
+            
         </div>
     
     </div>)
 }
-export default ConditionalsAndLoopsFourteen
+export default ConditionalsAndLoopsEighteen

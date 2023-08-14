@@ -14,7 +14,7 @@ const FunctionsFive = ({qn,backPage,qn1,qn2}) =>{
     useEffect(()=>{
     async function fetchFile() {
         try{
-    const res = await fetch(`${url}javaPrograms/firstJava/Three.java`)
+    const res = await fetch(`${url}javaPrograms/functions/Five.java`)
 
     const cont = await res.text();
     
@@ -28,7 +28,7 @@ const FunctionsFive = ({qn,backPage,qn1,qn2}) =>{
  
 fetchFile() 
 },[])
-    return(<div className="program-body"><div className='topics-logo'>3.{qn}</div>
+    return(<div className="program-body"><div className='topics-logo'>{qn}</div>
         <div className='program-content'>
 
 

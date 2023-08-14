@@ -11,7 +11,7 @@ const FunctionsThree = ({qn,backPage,qn1,qn2}) =>{
     useEffect(()=>{
     async function fetchFile() {
         try{
-    const res = await fetch(`${url}javaPrograms/firstJava/Three.java`)
+    const res = await fetch(`${url}javaPrograms/functions/Three.java`)
 
     const cont = await res.text();
     

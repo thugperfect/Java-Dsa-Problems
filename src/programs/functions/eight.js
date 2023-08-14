@@ -13,7 +13,7 @@ const FunctionsEight = ({qn,backPage,qn1,qn2}) =>{
     useEffect(()=>{
     async function fetchFile() {
         try{
-    const res = await fetch(`${url}javaPrograms/firstJava/Three.java`)
+    const res = await fetch(`${url}javaPrograms/functions/Eight.java`)
 
     const cont = await res.text();
     

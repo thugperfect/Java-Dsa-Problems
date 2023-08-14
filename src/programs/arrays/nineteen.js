@@ -5,12 +5,11 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 
-import ConditionalsAndLoopsFifteen from './fifteen'
+import ConditionalsAndLoopsTwenty from './twenty'
 
 
-
-const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
-    const q15 = "Find Ncr & Npr"
+const ConditionalsAndLoopsNineteen= ({qn,backPage}) =>{
+    const q20 = "Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero."
     const back = (page) =>{
         backPage(page)
     }
@@ -21,7 +20,7 @@ const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/conditionalsAndLoops/Fourteen.java`)
+        const res = await fetch(`${url}javaPrograms/conditionalsAndLoops/Nineteen.java`)
    
         const cont = await res.text();
         
@@ -36,7 +35,7 @@ const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
     fetchFile() 
   },[])
     return(<div className="program-body">
-        <div className='topics-logo'>14.{qn}</div>
+        <div className='topics-logo'>19.{qn}</div>
         <div className='program-content'>
 
           
@@ -47,11 +46,11 @@ const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
             </div>
             <div className='program-btns'>
             <div onClick={() => back(<ConditionalsAndLoops/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<ConditionalsAndLoopsFifteen qn ={q15} backPage={backPage}/>)} className='program-btn'>Next</div>
+            <div onClick={() => back(<ConditionalsAndLoopsTwenty qn ={q20} backPage={backPage}/>)} className='program-btn'>Next</div>
                 </div>
            
         </div>
     
     </div>)
 }
-export default ConditionalsAndLoopsFourteen
+export default ConditionalsAndLoopsNineteen
