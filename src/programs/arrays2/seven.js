@@ -8,7 +8,7 @@ import ConditionalsAndLoopsEight from './eight'
 import ArraysEight from './eight'
 import Arrays from '../../topics/Arrays'
 import Arrays2 from '../../topics/Arrays2'
-import Arrays2Eight from '../arrays/eight'
+import Arrays2Eight from './eight'
 const Arrays2Seven = ({qn,backPage}) =>{
     const q8 = "8.Spiral Matrix"
     const back = (page) =>{
@@ -21,7 +21,7 @@ const Arrays2Seven = ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/arrays/Seven.java`)
+        const res = await fetch(`${url}javaPrograms/arrays2/Seven.java`)
    
         const cont = await res.text();
         

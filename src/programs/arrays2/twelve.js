@@ -22,7 +22,7 @@ const Arrays2Twelve = ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/arrays/Twelve.java`)
+        const res = await fetch(`${url}javaPrograms/arrays2/Twelve.java`)
    
         const cont = await res.text();
         

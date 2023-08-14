@@ -8,6 +8,7 @@ import { useState,useEffect } from 'react'
 import Functions from '../../topics/Functions'
 import Arrays from '../../topics/Arrays'
 import Searching from "../../topics/Searching"
+import Arrays2 from '../../topics/Arrays2'
 
 
 
@@ -49,7 +50,7 @@ const ArraysTwentyone= ({qn,backPage}) =>{
             </div>
             <div className='program-btns'>
             <div onClick={() => back(<Arrays/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<Searching/>)} className='program-btn'>Next Map</div> 
+            <div onClick={() => back(<Arrays2/>)} className='program-btn'>Next Map</div> 
                 </div>
             
         </div>

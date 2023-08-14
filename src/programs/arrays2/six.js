@@ -21,7 +21,7 @@ const Arrays2Six = ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/arrays/Six.java`)
+        const res = await fetch(`${url}javaPrograms/arrays2/Six.java`)
    
         const cont = await res.text();
         

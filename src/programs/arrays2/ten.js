@@ -7,7 +7,7 @@ import { useState,useEffect } from 'react'
 
 import ConditionalsAndLoopsEleven from './eleven'
 import Arrays2 from '../../topics/Arrays2'
-import ArraysEleven from './eleven'
+
 import Arrays2Eleven from './eleven'
 const Arrays2Ten = ({qn,backPage}) =>{
     const q11 = "11.Set Matrix Zeroes"
@@ -21,7 +21,7 @@ const Arrays2Ten = ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/arrays/Ten.java`)
+        const res = await fetch(`${url}javaPrograms/arrays2/Ten.java`)
    
         const cont = await res.text();
         

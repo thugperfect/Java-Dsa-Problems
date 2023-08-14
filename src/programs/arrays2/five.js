@@ -22,7 +22,7 @@ const Arrays2Five = ({qn,backPage}) =>{
         useEffect(()=>{
         async function fetchFile() {
             try{
-        const res = await fetch(`${url}javaPrograms/arrays/Five.java`)
+        const res = await fetch(`${url}javaPrograms/arrays2/Five.java`)
    
         const cont = await res.text();
         
