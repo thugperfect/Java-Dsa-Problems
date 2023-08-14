@@ -7,7 +7,7 @@ import ConditionalsAndLoopsTwo from './two'
 import Arrays from '../../topics/Arrays'
 import ArraysTwo from './two'
 const ArraysOne = ({qn,backPage}) =>{
-   const q2 = "Subtract the Product and Sum of Digits of an Integer"
+    const q2 = "2.Concatenation of Array."
     const back = (page) =>{
         backPage(page)
     }
