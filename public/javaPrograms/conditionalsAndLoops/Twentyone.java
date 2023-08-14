@@ -16,6 +16,7 @@ public class Twentyone {
         if(i%2 == 0)
         count++;
     }
+    
     System.out.println(count);
 
     
