@@ -7,7 +7,7 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsSeventeen from './seventeen'
 
 
-const ConditionalsAndLoopsSixteen = ({qn,backPage}) =>{
+const ArraysSixteen = ({qn,backPage}) =>{
     const q17 = "Find if a number is palindrome or not"
     const back = (page) =>{
         backPage(page)
@@ -52,4 +52,4 @@ const ConditionalsAndLoopsSixteen = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsSixteen
+export default ArraysSixteen

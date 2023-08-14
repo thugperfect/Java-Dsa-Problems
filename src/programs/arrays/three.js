@@ -5,7 +5,7 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsFour from './four'
-const ConditionalsAndLoopsThree = ({qn,backPage}) =>{
+const ArraysThree = ({qn,backPage}) =>{
     const q4 = "Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop)"
     const back = (page) =>{
         backPage(page)
@@ -48,4 +48,4 @@ const ConditionalsAndLoopsThree = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsThree
+export default ArraysThree

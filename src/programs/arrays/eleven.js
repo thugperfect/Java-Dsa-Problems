@@ -7,7 +7,7 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTwelve from './twelve'
 
 
-const ConditionalsAndLoopsEleven = ({qn,backPage}) =>{
+const ArraysEleven = ({qn,backPage}) =>{
     const q12 = "Calculate CGPA Java Program"
     const back = (page) =>{
         backPage(page)
@@ -52,4 +52,4 @@ const ConditionalsAndLoopsEleven = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsEleven
+export default ArraysEleven

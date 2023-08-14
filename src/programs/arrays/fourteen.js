@@ -9,7 +9,7 @@ import ConditionalsAndLoopsFifteen from './fifteen'
 
 
 
-const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
+const ArraysFourteen = ({qn,backPage}) =>{
     const q15 = "Find Ncr & Npr"
     const back = (page) =>{
         backPage(page)
@@ -54,4 +54,4 @@ const ConditionalsAndLoopsFourteen = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsFourteen
+export default ArraysFourteen

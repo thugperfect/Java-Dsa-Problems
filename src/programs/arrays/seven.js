@@ -5,7 +5,7 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsEight from './eight'
-const ConditionalsAndLoopsSeven = ({qn,backPage}) =>{
+const ArraysSeven = ({qn,backPage}) =>{
     const q8 = "Calculate Average Of N Numbers"
     const back = (page) =>{
         backPage(page)
@@ -50,4 +50,4 @@ const ConditionalsAndLoopsSeven = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsSeven
+export default ArraysSeven

@@ -9,7 +9,7 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTwentyone from './twentyone'
 
 
-const ConditionalsAndLoopsTwenty= ({qn,backPage}) =>{
+const ArraysTwenty= ({qn,backPage}) =>{
     const q21 = "Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August."
     const back = (page) =>{
         backPage(page)
@@ -54,4 +54,4 @@ const ConditionalsAndLoopsTwenty= ({qn,backPage}) =>{
     
     </div>)
 } 
-export default ConditionalsAndLoopsTwenty
+export default ArraysTwenty

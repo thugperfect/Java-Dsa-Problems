@@ -5,7 +5,7 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsSix from './six'
-const ConditionalsAndLoopsFive = ({qn,backPage}) =>{
+const ArraysFive = ({qn,backPage}) =>{
     const q6 = "Factorial Program In Java"
     const back = (page) =>{
         backPage(page)
@@ -50,4 +50,4 @@ const ConditionalsAndLoopsFive = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsFive
+export default ArraysFive

@@ -8,7 +8,7 @@ import ConditionalsAndLoopsFourteen from './fourteen'
 
 
 
-const ConditionalsAndLoopsThirteen = ({qn,backPage}) =>{
+const ArraysThirteen = ({qn,backPage}) =>{
     const q14 = "Armstrong Number In Java"
     const back = (page) =>{
         backPage(page)
@@ -53,4 +53,4 @@ const ConditionalsAndLoopsThirteen = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsThirteen
+export default ArraysThirteen

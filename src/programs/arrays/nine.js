@@ -6,7 +6,7 @@ import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsTen from './ten'
 
-const ConditionalsAndLoopsNine = ({qn,backPage}) =>{
+const ArraysNine = ({qn,backPage}) =>{
     const q10 = "Calculate Distance Between Two Points"
     const back = (page) =>{
         backPage(page)
@@ -51,4 +51,4 @@ const ConditionalsAndLoopsNine = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsNine
+export default ArraysNine

@@ -6,7 +6,7 @@ import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 
 import ConditionalsAndLoopsEleven from './eleven'
-const ConditionalsAndLoopsTen = ({qn,backPage}) =>{
+const ArraysTen = ({qn,backPage}) =>{
     const q11 = "Calculate Commission Percentage"
     const back = (page) =>{
         backPage(page)
@@ -51,4 +51,4 @@ const ConditionalsAndLoopsTen = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsTen
+export default ArraysTen

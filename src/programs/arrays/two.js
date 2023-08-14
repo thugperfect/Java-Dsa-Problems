@@ -4,7 +4,7 @@ import '../../styles/topics.css'
 import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsThree from './three'
-const ConditionalsAndLoopsTwo = ({qn,backPage}) =>{
+const ArraysTwo = ({qn,backPage}) =>{
     const q3 = "Input a number and print all the factors of that number (use loops)."
     const back = (page) =>{
         backPage(page)
@@ -49,4 +49,4 @@ const ConditionalsAndLoopsTwo = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsTwo
+export default ArraysTwo

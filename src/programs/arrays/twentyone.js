@@ -9,7 +9,7 @@ import Functions from '../../topics/Functions'
 
 
 
-const ConditionalsAndLoopsTwentyone= ({qn,backPage}) =>{
+const ArraysTwentyone= ({qn,backPage}) =>{
     
     const back = (page) =>{
         backPage(page)
@@ -54,4 +54,4 @@ const ConditionalsAndLoopsTwentyone= ({qn,backPage}) =>{
     
     </div>)
 } 
-export default ConditionalsAndLoopsTwentyone
+export default ArraysTwentyone

@@ -9,7 +9,7 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsNineteen from './nineteen'
 
 
-const ConditionalsAndLoopsEighteen= ({qn,backPage}) =>{
+const ArraysEighteen= ({qn,backPage}) =>{
     const q19 = "Check Leap Year Or Not"
     const back = (page) =>{
         backPage(page)
@@ -54,4 +54,4 @@ const ConditionalsAndLoopsEighteen= ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsEighteen
+export default ArraysEighteen

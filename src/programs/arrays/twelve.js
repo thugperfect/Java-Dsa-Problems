@@ -7,7 +7,7 @@ import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsThirteen from './thirteen'
 
 
-const ConditionalsAndLoopsTwelve = ({qn,backPage}) =>{
+const ArraysTwelve = ({qn,backPage}) =>{
     const q13 = "Sum Of N Numbers"
     const back = (page) =>{
         backPage(page)
@@ -52,4 +52,4 @@ const ConditionalsAndLoopsTwelve = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsTwelve
+export default ArraysTwelve

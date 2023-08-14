@@ -6,7 +6,7 @@ import ConditionalsAndLoops from '../../topics/ConditionalsAndLoops'
 import { useState,useEffect } from 'react'
 import ConditionalsAndLoopsSixteen from './sixteen'
 
-const ConditionalsAndLoopsFifteen = ({qn,backPage}) =>{
+const ArraysFifteen = ({qn,backPage}) =>{
     const q16 = "Reverse A String In Java"
     const back = (page) =>{
         backPage(page)
@@ -51,4 +51,4 @@ const ConditionalsAndLoopsFifteen = ({qn,backPage}) =>{
     
     </div>)
 }
-export default ConditionalsAndLoopsFifteen
+export default ArraysFifteen
