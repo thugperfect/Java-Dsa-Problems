@@ -1,8 +1,10 @@
 import { useState,useEffect } from "react"
 import FirstJava from "../../topics/FirstJava"
 import FirstJavaFour from "./four"
-const FunctionsNine = ({qn,backPage}) =>{
-    const q4 = "Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)"
+import FunctionsTen from "./ten"
+import Functions from "../../topics/Functions"
+const FunctionsNine = ({qn,backPage,qn1,qn2}) =>{
+    const q10 = "10.Write a function to find if a number is a palindrome or not. Take number as parameter."
     const [file,setFile] = useState("Loading Java FIle...")
     const url = window.location.href
     const back = (page) =>{
@@ -32,8 +34,8 @@ fetchFile()
 <div className='program-hint program'><pre>{file}</pre></div>
 
 <div className="program-btns">
-<div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
-<div onClick={() => back(<FirstJavaFour qn = {q4} backPage={backPage} />)} className='program-btn'>Next</div>
+<div onClick={() => back(<Functions/>)} className='program-btn'>Go To Map</div>
+<div onClick={() => back(<FunctionsTen qn = {q10} backPage={backPage} />)} className='program-btn'>Next</div>
 </div>
 
 </div></div>)

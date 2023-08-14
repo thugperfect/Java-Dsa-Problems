@@ -2,8 +2,9 @@ import { useState,useEffect } from "react"
 import FirstJava from "../../topics/FirstJava"
 import FirstJavaFour from "./four"
 import Functions from "../../topics/Functions"
-const FunctionsTen = ({qn,backPage}) =>{
-    const q4 = "Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)"
+import FunctionsEleven from "./eleven"
+const FunctionsTen = ({qn,backPage,qn1,qn2}) =>{
+    const q11 = "11.Write a function to check if a given triplet is a Pythagorean triplet or not."
     const [file,setFile] = useState("Loading Java FIle...")
     const url = window.location.href
     const back = (page) =>{
@@ -33,8 +34,8 @@ fetchFile()
 <div className='program-hint program'><pre>{file}</pre></div>
 
 <div className="program-btns">
-<div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
-<div onClick={() => back(<FirstJavaFour qn = {q4} backPage={backPage} />)} className='program-btn'>Next</div>
+<div onClick={() => back(<Functions/>)} className='program-btn'>Go To Map</div>
+<div onClick={() => back(<FunctionsEleven qn ={q11} backPage={backPage} />)} className='program-btn'>Next</div>
 </div>
 
 </div></div>)

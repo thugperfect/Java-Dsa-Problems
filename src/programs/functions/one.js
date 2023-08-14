@@ -3,14 +3,15 @@ import '../../styles/topics.css'
 import FirstJava from '../../topics/FirstJava'
 import { useState,useEffect } from 'react'
 import FunctionsTwo from './two'
-const FunctionsOne = ({qn,backPage,qn1}) =>{
-    const q2 = "Take name as input and print a greeting message for that particular name."
+import Functions from '../../topics/Functions'
+const FunctionsOne = ({qn,backPage,qn1,qn2}) =>{
+    const q2 = "2.Define a program to find out whether a given number is even or odd."
     const back = (page) =>{
         backPage(page)
     }
         const url = window.location.href
 
-        const [file,setFile] = useState("Loading Java FIle...")
+        const [file,setFile] = useState("Loading Java File...")
     
         useEffect(()=>{
         async function fetchFile() {
@@ -39,8 +40,8 @@ const FunctionsOne = ({qn,backPage,qn1}) =>{
          
 
             </div>
-            <div className='program-btns'> <div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<FunctionsTwo qn ={qn1} backPage={backPage}/>)} className='program-btn'>Next</div></div>
+            <div className='program-btns'> <div onClick={() => back(<Functions/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<FunctionsTwo qn ={q2} backPage={backPage}/>)} className='program-btn'>Next</div></div>
            
         </div>
     

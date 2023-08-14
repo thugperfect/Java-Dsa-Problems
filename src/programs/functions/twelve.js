@@ -3,7 +3,9 @@ import '../../styles/topics.css'
 import FirstJava from '../../topics/FirstJava'
 import { useState,useEffect } from 'react'
 import FirstJavaTwo from './two'
-const FunctionsTwelve = ({qn,backPage}) =>{
+import FunctionsThirteen from './thirteen'
+import Functions from '../../topics/Functions'
+const FunctionsTwelve = ({qn,backPage,qn1,qn2}) =>{
     const q2 = "Take name as input and print a greeting message for that particular name."
     const back = (page) =>{
         backPage(page)
@@ -39,8 +41,8 @@ const FunctionsTwelve = ({qn,backPage}) =>{
          
 
             </div>
-            <div className='program-btns'> <div onClick={() => back(<FirstJava/>)} className='program-btn'>Go To Map</div>
-            <div onClick={() => back(<FirstJavaTwo qn ={q2} backPage={backPage}/>)} className='program-btn'>Next</div></div>
+            <div className='program-btns'> <div onClick={() => back(<Functions/>)} className='program-btn'>Go To Map</div>
+            <div onClick={() => back(<FunctionsThirteen qn = {qn1} qn1={qn2} backPage={backPage}/>)} className='program-btn'>Next</div></div>
            
         </div>
     
