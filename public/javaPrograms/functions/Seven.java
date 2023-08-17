@@ -7,19 +7,33 @@ class Seven{
 
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
-        fib(n);
-        System.out.println(" ");
-        fibb(n);
+        boolean isPrime = isPrime(n);
+        System.out.println(isPrime);
+       
     }
-static void fib(int n){
-    int a =0;
-    int b = 1,i;
-    System.out.print(b+" ");
-    for(i= 0;i<n;i++){
-        int c = a+b;
-        a=b;b=c;
-        System.out.print(c+" ");
+static boolean isPrime(int n){
+    boolean isPrime=false;
+    if(n==0||n==1){
+        isPrime = false;
+        return isPrime;
+    }else{
+for(int i =2;i<n/2;i++){   
+        if(n%i==0){
+            isPrime = false;
+            break; //important...
+         
+        }
+        else{
+            isPrime = true;
+            
+        }
     }
+    }
+    if(n==2||n==3||n==5){
+        isPrime = true;
+        return isPrime;
+    }
+    return isPrime;
 }
 
 
