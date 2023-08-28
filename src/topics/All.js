@@ -34,13 +34,13 @@ const All = ({onProgramChange}) =>{
     <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
    {(click===1)?<FirstjavaMain onProgramChange={ProgramChange}/>:""}
-   <div className="w-4/5 bg-slate-700 px-5 h-16 handlecursor-pointer flex  justify-between items-center mb-1 rounded-lg"
+   <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg"
    onClick={()=>Changepage(2)}>
    <div>Conditionals & Loops</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
   
-   {(click===2)?<ConditionalsMain/>:""}
+   {(click===2)?<ConditionalsMain onProgramChange={ProgramChange}/>:""}
 
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex justify-between items-center mb-1 rounded-lg"
    onClick={()=>Changepage(3)}>
