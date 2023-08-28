@@ -20,22 +20,11 @@ const All = () =>{
                 setClick(prop)
             }else{
                 setClick(0)
-            }
-            
-            
+            }            
         }
 
-   
-    
-    // const ChangepageFirst =() =>{
-    //     changeFirstjava(<FirstjavaMain/>)
-    // }
-   return(<div className="container lg:w-4/5 text-white  px-5 mx-auto  bold italic ">
-    <div className="topbar bg-red-600 w-full h-16 flex justify-center items-center text-2xl">
-        Java-DSA
-    </div>
-    <div className="container mx-auto w-full bg-zinc-800 lg:text-lg md:text-md flex flex-col items-center">
-   <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex justify-between items-center mb-1 rounded-lg"
+   return(<div className='container mx-auto flex flex-col items-center'>
+<div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex justify-between items-center mb-1 rounded-lg"
    onClick={()=>Changepage(1)}
    >
     <div>First Java</div>
@@ -117,8 +106,9 @@ const All = () =>{
    <div>Trees</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-    </div>
    </div>
+   
+   
    
    ) 
 }

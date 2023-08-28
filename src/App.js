@@ -3,6 +3,7 @@ import './styles/App.css';
 import Navbar from './components/Navbar';
 import Topbar from './components/Topbar';
 import FirstJava from './topics/FirstJava';
+import BodyMain from './components/BodyMain';
 import { BrowserRouter as Router ,Routes,Route } from 'react-router-dom';
 
 import All from './topics/All';
@@ -23,8 +24,8 @@ function App() {
   return (
     <Router>
         <Routes>
-          <Route path='/all' Component={All}> </Route>
-          <Route path='/' Component={New}></Route>
+          <Route path='/all' Component={New}> </Route>
+          <Route path='/' Component={BodyMain}></Route>
         </Routes>
       </Router>
   )
