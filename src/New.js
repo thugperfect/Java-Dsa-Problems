@@ -6,10 +6,9 @@ import FirstJava from './topics/FirstJava';
 import { BrowserRouter as Router ,Routes,Route } from 'react-router-dom';
 
 import All from './topics/All';
-import New from './New';
 
 import { useState } from "react"
-function App() {
+function New() {
 
   const [topic,changeTopic] = useState(<FirstJava/>)
 
@@ -20,14 +19,20 @@ function App() {
   const handleProgramChange = (newProgram) =>{
     changeTopic(newProgram)
   }
-  return (
-    <Router>
-        <Routes>
-          <Route path='/all' Component={All}> </Route>
-          <Route path='/' Component={New}></Route>
-        </Routes>
-      </Router>
-  )
-}
+return( <div className="Main">
+      
+<div className='App-main'>
+<Topbar/>
 
-export default App;
+<div className='App'>
+<Navbar onTopicChange={handleTopicChange}/>
+<Body onProgramChange={handleProgramChange} topic = {topic}/>
+
+</div>
+
+</div>
+       
+    </div>
+  );
+}
+export default New
