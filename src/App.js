@@ -4,15 +4,15 @@ import Navbar from './components/Navbar';
 import Topbar from './components/Topbar';
 import FirstJava from './topics/FirstJava';
 import BodyMain from './components/BodyMain';
+import All from './topics/All';
 import { BrowserRouter as Router ,Routes,Route } from 'react-router-dom';
 
-import All from './topics/All';
 import New from './New';
 
 import { useState } from "react"
 function App() {
 
-  const [topic,changeTopic] = useState(<FirstJava/>)
+  const [topic,changeTopic] = useState(<All/>)
 
   const handleTopicChange = (newTopic) =>{
     changeTopic(newTopic)
@@ -22,12 +22,7 @@ function App() {
     changeTopic(newProgram)
   }
   return (
-    <Router>
-        <Routes>
-          <Route path='/all' Component={New}> </Route>
-          <Route path='/' Component={BodyMain}></Route>
-        </Routes>
-      </Router>
+ <BodyMain onProgramChange={handleProgramChange} topic={topic} />
   )
 }
 

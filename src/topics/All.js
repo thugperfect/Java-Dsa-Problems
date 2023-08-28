@@ -5,7 +5,7 @@ import FunctionsMain from '../programs/FunctionsMain'
 import ArraysMain from '../programs/ArraysMain'
 import Arrays2Main from '../programs/Arrays2Main'
 import { useState ,useEffect} from 'react'
-const All = () =>{
+const All = ({onProgramChange}) =>{
 
     const [Firstjava ,changeFirstjava] = useState()
     const [conditionals ,changeConditionals] = useState()
@@ -22,6 +22,9 @@ const All = () =>{
                 setClick(0)
             }            
         }
+        const ProgramChange =(prop) =>{
+            onProgramChange(prop)
+        }
 
    return(<div className='container mx-auto flex flex-col items-center'>
 <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex justify-between items-center mb-1 rounded-lg"
@@ -30,8 +33,8 @@ const All = () =>{
     <div>First Java</div>
     <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-   {(click===1)?<FirstjavaMain/>:""}
-   <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg"
+   {(click===1)?<FirstjavaMain onProgramChange={ProgramChange}/>:""}
+   <div className="w-4/5 bg-slate-700 px-5 h-16 handlecursor-pointer flex  justify-between items-center mb-1 rounded-lg"
    onClick={()=>Changepage(2)}>
    <div>Conditionals & Loops</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
