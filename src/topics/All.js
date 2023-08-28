@@ -47,7 +47,7 @@ const All = ({onProgramChange}) =>{
    <div>Functions</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-   {(click===3)?<FunctionsMain/>:""}
+   {(click===3)?<FunctionsMain onProgramChange={ProgramChange}/>:""}
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg"
    onClick={()=>Changepage(4)}>
    <div>Arrays</div>
