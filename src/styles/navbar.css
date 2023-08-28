@@ -1,5 +1,7 @@
 
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .navbar-main{
  position: absolute;
   width: 100%;

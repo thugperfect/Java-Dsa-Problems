@@ -27,7 +27,7 @@ const q9 = "To find Armstrong Number between two given number."
  
   return (
  
-    <div className="map">
+    <div className="w-3/5">
 
       <div className="topics-logo">FirstJava</div>
       <div className="topics-body">

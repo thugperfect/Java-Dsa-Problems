@@ -1,3 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+    @apply bg-black;
+    @apply w-full flex flex-col justify-center ;
+
+  }
+}
+/* 
 .Main{
   width: 100%;
   min-height: 100vh;
@@ -36,4 +49,4 @@ justify-content: center;
 }
 .body::-webkit-scrollbar{
 display: none;
-}
+} */

@@ -26,6 +26,7 @@ function App() {
 <div className='App'>
 <Navbar onTopicChange={handleTopicChange}/>
 <Body onProgramChange={handleProgramChange} topic = {topic}/>
+
 </div>
 
 </div>
