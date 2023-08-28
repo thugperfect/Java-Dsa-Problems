@@ -7,7 +7,7 @@ import Arrays2Main from '../programs/Arrays2Main'
 import { useState } from 'react'
 const All = () =>{
 
-    const [firstjava ,changeFirstjava] = useState()
+    const [Firstjava ,changeFirstjava] = useState()
 
     const Changepage =() =>{
         changeFirstjava(<FirstjavaMain/>)
@@ -23,28 +23,28 @@ const All = () =>{
     <div>First Java</div>
     <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-   {firstjava}
+   {Firstjava}
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Conditionals & Loops</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-   <ConditionalsMain/>
+   
 
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex justify-between items-center mb-1 rounded-lg">
    <div>Functions</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-   <FunctionsMain/>
+   
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Arrays</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-   <ArraysMain/>
+   
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Arrays 2</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-   <Arrays2Main/>
+   
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Searching</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
