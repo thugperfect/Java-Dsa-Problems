@@ -5,7 +5,7 @@
 
 @layer base{
   html{
-    @apply bg-zinc-900 text-white;
+    @apply bg-zinc-900 ;
     @apply w-full flex flex-col justify-center ;
 
   }
