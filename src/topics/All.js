@@ -26,13 +26,13 @@ const All = ({onProgramChange}) =>{
    onClick={()=>Changepage(1)}
    >
     <div>First Java</div>
-    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+    <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    {(click===1)?<FirstjavaMain onProgramChange={ProgramChange}/>:""}
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg"
    onClick={()=>Changepage(2)}>
    <div>Conditionals & Loops</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
   
    {(click===2)?<ConditionalsMain onProgramChange={ProgramChange}/>:""}
@@ -40,69 +40,69 @@ const All = ({onProgramChange}) =>{
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex justify-between items-center mb-1 rounded-lg"
    onClick={()=>Changepage(3)}>
    <div>Functions</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    {(click===3)?<FunctionsMain onProgramChange={ProgramChange}/>:""}
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg"
    onClick={()=>Changepage(4)}>
    <div>Arrays</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    {(click===4)?<ArraysMain onProgramChange={ProgramChange}/>:""}
    
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg" 
    onClick={()=>Changepage(5)}>
    <div>Arrays 2</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    {(click===5)?<Arrays2Main onProgramChange={ProgramChange}/>:""}
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Searching</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Sorting</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Strings</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Patterns</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Recursion</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Bitwise</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Math</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Complexities</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>OOP</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Linked List</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Stack & Queue</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Trees</div>
-   <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
+   <img className='w-auto h-full ' src={downArrow} alt="nothing" />
    </div>
    </div>
    
