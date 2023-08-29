@@ -24,10 +24,11 @@ const fileFetch = moduleFetch.find((prop)=>
         fetchFile()
     },[])
     return(
-        <div className="container text-white flex flex-col items-center gap-8 min-h-[700px]">
-            <div className="mt-5">{fileFetch.qn_no}.{fileFetch.qn}</div>
-            <pre className="container bg-black w-4/5 h-auto rounded-lg px-4 p-4">
-         {file}
+        <div className="container text-white flex flex-col items-center gap-8 min-h-[700px] ">
+            <div className="mt-5 px-4">{fileFetch.qn_no}.{fileFetch.qn}</div>
+            <pre className="container bg-black  lg:w-4/5 md:text-lg  md:text-[10px] sm:w-full h-auto  rounded-lg px-4 p-4">
+               {file}
+        
        </pre>
             </div>
     )
