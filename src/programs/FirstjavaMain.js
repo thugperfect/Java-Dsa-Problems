@@ -1,3 +1,4 @@
+import PageChanger from "../topics/PageChanger"
 const FirstjavaMain = () =>{
 const q1 = "Write a program to print whether a number is even or odd, also take input from the user."
 const q2 = "Take name as input and print a greeting message for that particular name."
@@ -8,8 +9,11 @@ const q6 = "Input currency in rupees and output in USD."
 const q7 = "To calculate Fibonacci Series up to n numbers."
 const q8 = "To find out whether the given String is Palindrome or not."
 const q9 = "To find Armstrong Number between two given number."
+
    return(<div className="w-4/5  container flex flex-col items-center">
-    <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg">
+    <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
+    
+    >
         1. {q1}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg">

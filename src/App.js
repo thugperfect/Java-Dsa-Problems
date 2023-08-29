@@ -24,8 +24,8 @@ function App() {
   return (
     <Router>
         <Routes>
-          <Route path='/all' Component={New}> </Route>
-          <Route path='/' Component={BodyMain}></Route>
+          <Route path='/' Component={New}></Route>
+          <Route path='/all' Component={BodyMain}></Route>
         </Routes>
       </Router>
   )

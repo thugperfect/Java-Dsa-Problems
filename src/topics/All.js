@@ -5,7 +5,7 @@ import FunctionsMain from '../programs/FunctionsMain'
 import ArraysMain from '../programs/ArraysMain'
 import Arrays2Main from '../programs/Arrays2Main'
 import { useState ,useEffect} from 'react'
-const All = () =>{
+const All = ({changeBody}) =>{
 
     const [Firstjava ,changeFirstjava] = useState()
     const [conditionals ,changeConditionals] = useState()
