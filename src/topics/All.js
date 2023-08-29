@@ -4,14 +4,9 @@ import ConditionalsMain from '../programs/ConditionalsMain'
 import FunctionsMain from '../programs/FunctionsMain'
 import ArraysMain from '../programs/ArraysMain'
 import Arrays2Main from '../programs/Arrays2Main'
-import { useState ,useEffect} from 'react'
+import { useState } from 'react'
 const All = ({onProgramChange}) =>{
 
-    const [Firstjava ,changeFirstjava] = useState()
-    const [conditionals ,changeConditionals] = useState()
-    const [functions ,changeFunctions] = useState()
-    const [arrays ,changeArrays] = useState()
-    const [arrays2 ,changeArrays2] = useState()
     const [click,setClick] = useState(0)
     
         const Changepage =(prop) =>{
@@ -27,7 +22,7 @@ const All = ({onProgramChange}) =>{
         }
 
    return(<div className='container mx-auto flex flex-col items-center'>
-<div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex justify-between items-center mb-1 rounded-lg"
+<div className="w-4/5 bg-slate-700 transition duration-700 px-5 h-16 cursor-pointer flex justify-between items-center mb-1 rounded-lg"
    onClick={()=>Changepage(1)}
    >
     <div>First Java</div>
@@ -53,14 +48,14 @@ const All = ({onProgramChange}) =>{
    <div>Arrays</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-   {(click===4)?<ArraysMain/>:""}
+   {(click===4)?<ArraysMain onProgramChange={ProgramChange}/>:""}
    
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg" 
    onClick={()=>Changepage(5)}>
    <div>Arrays 2</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
    </div>
-   {(click===5)?<Arrays2Main/>:""}
+   {(click===5)?<Arrays2Main onProgramChange={ProgramChange}/>:""}
    <div className="w-4/5 bg-slate-700 px-5 h-16 cursor-pointer flex  justify-between items-center mb-1 rounded-lg">
    <div>Searching</div>
    <img className='w-auto h-full bg-yellow-500' src={downArrow} alt="nothing" />
