@@ -62,7 +62,7 @@ onProgramChange(prop)
         9.{q9}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={5.10}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={5.101}/>)}>
         10.{q10}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
@@ -102,7 +102,7 @@ onProgramChange(prop)
         19.{q19}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={5.20}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={5.201}/>)}>
         20.{q20}
     </div>
   

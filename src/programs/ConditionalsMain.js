@@ -62,7 +62,7 @@ const ConditionalsMain = ({onProgramChange}) =>{
         9. {q9}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={2.10}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={2.101}/>)}>
         10. {q10}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
@@ -102,7 +102,7 @@ const ConditionalsMain = ({onProgramChange}) =>{
         19. {q19}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={2.20}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={2.201}/>)}>
         20. {q20}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"

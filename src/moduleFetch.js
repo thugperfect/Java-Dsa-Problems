@@ -109,7 +109,7 @@ const moduleFetch = [
     },
     {
         qn_no:10,
-        id:2.10,
+        id:2.101,
         qn:"Calculate Distance Between Two Points",
         file_name:"conditionalsAndLoops/Ten.java"  
     },
@@ -169,7 +169,7 @@ const moduleFetch = [
     },
     {
         qn_no:20,
-        id:2.20,
+        id:2.201,
         qn:"Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero.",
         file_name:"conditionalsAndLoops/Twenty.java"  
     },
@@ -235,7 +235,7 @@ const moduleFetch = [
     },
     {
         qn_no:10,
-        id:3.10,
+        id:3.101,
         qn:"A function to find if a number is a palindrome or not. Take number as parameter.",
         file_name:"functions/Ten.java"  
     },
@@ -313,7 +313,7 @@ const moduleFetch = [
     },
     {
         qn_no:10,
-        id:4.10,
+        id:4.101,
         qn:"Check if the Sentence Is Pangram.",
         file_name:"arrays/Ten.java"  
     },
@@ -373,7 +373,7 @@ const moduleFetch = [
     },
     {
         qn_no:20,
-        id:4.20,
+        id:4.201,
         qn:"Determine Whether Matrix Can Be Obtained By Rotation.",
         file_name:"arrays/Twenty.java"  
     },
@@ -440,7 +440,7 @@ const moduleFetch = [
     },
     {
         qn_no:10,
-        id:5.10,
+        id:5.101,
         qn:"Spiral Matrix III",
         file_name:"arrays2/Ten.java"  
     },
@@ -500,7 +500,7 @@ const moduleFetch = [
     },
     {
         qn_no:20,
-        id:5.20,
+        id:5.201,
         qn:"Good Array",
         file_name:"arrays2/Twenty.java"  
     },
