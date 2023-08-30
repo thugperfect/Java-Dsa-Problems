@@ -20,7 +20,7 @@ const ArraysMain = ({onProgramChange}) =>{
     const q18 = "Add to Array-Form of Integer."
     const q19 = "Maximum Population Year."
     const q20 = "Determine Whether Matrix Can Be Obtained By Rotation."
-    const q21 = "tow sum."
+    const q21 = "Tow sum."
 const ChangePage =(prop)=>{
     onProgramChange(prop)
 }

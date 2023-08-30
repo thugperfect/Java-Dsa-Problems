@@ -257,6 +257,132 @@ const moduleFetch = [
         qn:"A function that returns the sum of first n natural numbers.",
         file_name:"functions/Thirteen.java"  
     },
+    {
+        qn_no:1,
+        id:4.1,
+        qn:"Build Array from Permutation.",
+        file_name:"arrays/One.java"  
+    },
+    {
+        qn_no:2,
+        id:4.2,
+        qn:"Concatenation of Array.",
+        file_name:"arrays/Two.java"  
+    },
+    {
+        qn_no:3,
+        id:4.3,
+        qn:"Running Sum of 1d Array.",
+        file_name:"arrays/Three.java"  
+    },
+    {
+        qn_no:4,
+        id:4.4,
+        qn:"Richest Customer Wealth.",
+        file_name:"arrays/Four.java"  
+    },
+    {
+        qn_no:5,
+        id:4.5,
+        qn:"Shuffle the Array.",
+        file_name:"arrays/Five.java"  
+    },
+    {
+        qn_no:6,
+        id:4.6,
+        qn:"Kids With the Greatest Number of Candies.",
+        file_name:"arrays/Six.java"  
+    },
+    {
+        qn_no:7,
+        id:4.7,
+        qn:"Number of Good Pairs.",
+        file_name:"arrays/Seven.java"  
+    },
+    {
+        qn_no:8,
+        id:4.8,
+        qn:"How Many Numbers Are Smaller Than the Current Number.",
+        file_name:"arrays/Eight.java"  
+    },
+    {
+        qn_no:9,
+        id:4.9,
+        qn:"Create Target Array in the Given Order.",
+        file_name:"arrays/Nine.java"  
+    },
+    {
+        qn_no:10,
+        id:4.10,
+        qn:"Check if the Sentence Is Pangram.",
+        file_name:"arrays/Ten.java"  
+    },
+    {
+        qn_no:11,
+        id:4.11,
+        qn:"Count Items Matching a Rule.",
+        file_name:"arrays/Eleven.java"  
+    },
+    {
+        qn_no:12,
+        id:4.12,
+        qn:"Find the Highest Altitude.",
+        file_name:"arrays/Twelve.java"  
+    },
+    {
+        qn_no:13,
+        id:4.13,
+        qn:"flipping an image.",
+        file_name:"arrays/Thirteen.java"  
+    },
+    {
+        qn_no:14,
+        id:4.14,
+        qn:"cells with odd values in a matrix.",
+        file_name:"arrays/Fourteen.java"  
+    },
+    {
+        qn_no:15,
+        id:4.15,
+        qn:"matrix diagonal sum.",
+        file_name:"arrays/Fifteen.java"  
+    },
+    {
+        qn_no:16,
+        id:4.16,
+        qn:"find numbers with even number of digits.",
+        file_name:"arrays/Sixteen.java"  
+    },
+    {
+        qn_no:17,
+        id:4.17,
+        qn:"Transpose matrix.",
+        file_name:"arrays/Seventeen.java"  
+    },
+    {
+        qn_no:18,
+        id:4.18,
+        qn:"Add to Array-Form of Integer.",
+        file_name:"arrays/Eighteen.java"  
+    },
+    {
+        qn_no:19,
+        id:4.19,
+        qn:"Maximum Population Year.",
+        file_name:"arrays/Nineteen.java"  
+    },
+    {
+        qn_no:20,
+        id:4.20,
+        qn:"Determine Whether Matrix Can Be Obtained By Rotation.",
+        file_name:"arrays/Twenty.java"  
+    },
+    {
+        qn_no:21,
+        id:4.21,
+        qn:"Tow sum.",
+        file_name:"arrays/Twentyone.java"  
+    },
 
 ]
 module.exports = {moduleFetch}
