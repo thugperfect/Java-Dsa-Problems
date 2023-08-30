@@ -9,10 +9,10 @@ const FunctionsMain = ({onProgramChange}) =>{
     const q7 = "Define a method to find out if a number is prime or not."
     const q8 = "Write a program that will ask the user to enter his/her marks (out of 100). Define a method that will display grades according to the marks entered"
     const q9  = "Write a program to print the factorial of a number by defining a method named 'Factorial'."
-    const q10 = " cursor-pointerWrite a function to find if a number is a palindrome or not. Take number as parameter."
-    const q11 = " cursor-pointerWrite a function to check if a given triplet is a Pythagorean triplet or not."
-    const q12 = " cursor-pointerWrite a function that returns all prime numbers between two given numbers."
-    const q13 = " cursor-pointerWrite a function that returns the sum of first n natural numbers."
+    const q10 = "A function to find if a number is a palindrome or not. Take number as parameter."
+    const q11 = "A function to check if a given triplet is a Pythagorean triplet or not."
+    const q12 = "A function that returns all prime numbers between two given numbers."
+    const q13 = "A function that returns the sum of first n natural numbers."
 
     const ChangePage=(prop)=>{
         onProgramChange(prop)

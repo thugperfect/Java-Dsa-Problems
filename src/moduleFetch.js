@@ -179,6 +179,84 @@ const moduleFetch = [
         qn:"Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.",
         file_name:"conditionalsAndLoops/Twentyone.java"  
     },
+    {
+        qn_no:1,
+        id:3.1,
+        qn:"Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.",
+        file_name:"functions/One.java"  
+    },
+    {
+        qn_no:2,
+        id:3.2,
+        qn:"Define a program to find out whether a given number is even or odd.",
+        file_name:"functions/Two.java"  
+    },
+    {
+        qn_no:3,
+        id:3.3,
+        qn:"A person is eligible to vote if his/her age is greater than or equal to 18. Define a method to find out if he/she is eligible to vote.",
+        file_name:"functions/Three.java"  
+    },
+    {
+        qn_no:4,
+        id:3.4,
+        qn:"Write a program to print the sum of two numbers entered by user by defining your own method.",
+        file_name:"functions/Four.java"  
+    },
+    {
+        qn_no:5,
+        id:3.5,
+        qn:"Define a method that returns the product of two numbers entered by user.",
+        file_name:"functions/Five.java"  
+    },
+    {
+        qn_no:6,
+        id:3.6,
+        qn:"Write a program to print the circumference and area of a circle of radius entered by user by defining your own method.",
+        file_name:"functions/Six.java"  
+    },
+    {
+        qn_no:7,
+        id:3.7,
+        qn:"Define a method to find out if a number is prime or not.",
+        file_name:"functions/Seven.java"  
+    },
+    {
+        qn_no:8,
+        id:3.8,
+        qn:"Write a program that will ask the user to enter his/her marks (out of 100). Define a method that will display grades according to the marks entered",
+        file_name:"functions/Eight.java"  
+    },
+    {
+        qn_no:9,
+        id:3.9,
+        qn:"Write a program to print the factorial of a number by defining a method named 'Factorial'.",
+        file_name:"functions/Nine.java"  
+    },
+    {
+        qn_no:10,
+        id:3.10,
+        qn:"A function to find if a number is a palindrome or not. Take number as parameter.",
+        file_name:"functions/Ten.java"  
+    },
+    {
+        qn_no:11,
+        id:3.11,
+        qn:"A function to check if a given triplet is a Pythagorean triplet or not.",
+        file_name:"functions/Eleven.java"  
+    },
+    {
+        qn_no:12,
+        id:3.12,
+        qn:"A function that returns all prime numbers between two given numbers.",
+        file_name:"functions/Twelve.java"  
+    },
+    {
+        qn_no:13,
+        id:3.13,
+        qn:"A function that returns the sum of first n natural numbers.",
+        file_name:"functions/Thirteen.java"  
+    },
 
 ]
 module.exports = {moduleFetch}
