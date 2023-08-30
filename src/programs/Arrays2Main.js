@@ -19,7 +19,7 @@ const Arrays2Main = ({onProgramChange}) =>{
     const q17 = "House Robber"
     const q18 = "Max Value of Equation"
     const q19 = "First Missing Positive"
-    const q20 = "First Missing Positive"
+    const q20 = "Good Array"
     const ChangePage = (prop) =>{
 onProgramChange(prop)
     }

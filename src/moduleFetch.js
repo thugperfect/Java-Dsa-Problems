@@ -384,5 +384,126 @@ const moduleFetch = [
         file_name:"arrays/Twentyone.java"  
     },
 
+    {
+        qn_no:1,
+        id:5.1,
+        qn:"Find N Unique Integers Sum up to Zero",
+        file_name:"arrays2/One.java"  
+    },
+    {
+        qn_no:2,
+        id:5.2,
+        qn:"Lucky Number In a Matrix",
+        file_name:"arrays2/Two.java"  
+    },
+    {
+        qn_no:3,
+        id:5.3,
+        qn:"Maximum Subarray",
+        file_name:"arrays2/Three.java"  
+    },
+    {
+        qn_no:4,
+        id:5.4,
+        qn:"Reshape the Matrix",
+        file_name:"arrays2/Four.java"  
+    },
+    {
+        qn_no:5,
+        id:5.5,
+        qn:"Plus One",
+        file_name:"arrays2/Five.java"  
+    },
+    {
+        qn_no:6,
+        id:5.6,
+        qn:"Remove Duplicates from Sorted Array",
+        file_name:"arrays2/Six.java"  
+    },
+    {
+        qn_no:7,
+        id:5.7,
+        qn:"Minimum Cost to Move Chips to The Same Position",
+        file_name:"arrays2/Seven.java"  
+    },
+    {
+        qn_no:8,
+        id:5.8,
+        qn:"Spiral Matrix",
+        file_name:"arrays2/Eight.java"  
+    },
+    {
+        qn_no:9,
+        id:5.9,
+        qn:"Spiral Matrix II",
+        file_name:"arrays2/Nine.java"  
+    },
+    {
+        qn_no:10,
+        id:5.10,
+        qn:"Spiral Matrix III",
+        file_name:"arrays2/Ten.java"  
+    },
+    {
+        qn_no:11,
+        id:5.11,
+        qn:"Set Matrix Zeroes",
+        file_name:"arrays2/Eleven.java"  
+    },
+    {
+        qn_no:12,
+        id:5.12,
+        qn:"Product of Array Except Self",
+        file_name:"arrays2/Twelve.java"  
+    },
+    {
+        qn_no:13,
+        id:5.13,
+        qn:"Find First and Last Position of Element in Sorted Array",
+        file_name:"arrays2/Thirteen.java"  
+    },
+    {
+        qn_no:14,
+        id:5.14,
+        qn:"Jump Game",
+        file_name:"arrays2/Fourteen.java"  
+    },
+    {
+        qn_no:15,
+        id:5.15,
+        qn:"Rotate Array",
+        file_name:"arrays2/Fifteen.java"  
+    },
+    {
+        qn_no:16,
+        id:5.16,
+        qn:"Sort Colors",
+        file_name:"arrays2/Sixteen.java"  
+    },
+    {
+        qn_no:17,
+        id:5.17,
+        qn:"House Robber",
+        file_name:"arrays2/Seventeen.java"  
+    },
+    {
+        qn_no:18,
+        id:5.18,
+        qn:"Max Value of Equation",
+        file_name:"arrays2/Eighteen.java"  
+    },
+    {
+        qn_no:19,
+        id:5.19,
+        qn:"First Missing Positive",
+        file_name:"arrays2/Nineteen.java"  
+    },
+    {
+        qn_no:20,
+        id:5.20,
+        qn:"Good Array",
+        file_name:"arrays2/Twenty.java"  
+    },
+
 ]
 module.exports = {moduleFetch}
