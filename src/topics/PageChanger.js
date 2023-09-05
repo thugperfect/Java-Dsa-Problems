@@ -44,8 +44,8 @@ prop.id ===numberMod
                {file}</pre>
 
                <div className="flex">
-                <div onClick={()=>{backward(page-1)}} className="p-3 bg-slate-700 rounded-lg mr-2 mb-5">Back</div>
-                <div onClick={()=>{forward(page+1)}} className="p-3 bg-slate-700 rounded-lg mr-2 mb-5">Next</div></div>
+                <div onClick={()=>{backward(page-1)}} className="p-3 bg-slate-700 rounded-lg mr-2 mb-5 cursor-pointer">Prev</div>
+                <div onClick={()=>{forward(page+1)}} className="p-3 bg-slate-700 rounded-lg mr-2 mb-5 cursor-pointer">Next</div></div>
             </div>
     )
 }
