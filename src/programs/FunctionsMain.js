@@ -19,55 +19,55 @@ const FunctionsMain = ({onProgramChange}) =>{
     }
     return(<div className="w-4/5  container flex flex-col items-center">
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-     onClick={()=>ChangePage(<PageChanger mod={3.1}/>)}>
+     onClick={()=>ChangePage(<PageChanger mod={31}/>)}>
         1. {q1}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.2}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={32}/>)}>
         2. {q2}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.3}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={33}/>)}>
         3. {q3}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.4}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={34}/>)}>
         4. {q4}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.5}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={35}/>)}>
         5. {q5}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.6}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={36}/>)}>
         6. {q6}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.7}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={37}/>)}>
         7. {q7}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.8}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={38}/>)}>
         8. {q8}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.9}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={39}/>)}>
         9. {q9}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.101}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={40}/>)}>
         10. {q10}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.11}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={41}/>)}>
         11. {q11}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.12}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={42}/>)}>
         12. {q12}
     </div>
     <div className="h-auto p-5 cursor-pointer w-4/5 bg-slate-600 px-4 mb-1 rounded-lg"
-    onClick={()=>ChangePage(<PageChanger mod={3.13}/>)}>
+    onClick={()=>ChangePage(<PageChanger mod={43}/>)}>
         13. {q13}
     </div>
     </div>

@@ -3,7 +3,9 @@ import { useState,useEffect } from "react"
 
 const PageChanger = ({mod}) =>{
 
-const numberMod = Number(mod)
+    const [page,ChangePage] = useState(0)
+    const pageview = Number(mod)+page
+const numberMod = Number(pageview)
 const url = window.location.href
 const fileFetch = moduleFetch.find((prop)=>
          prop.id ===numberMod
