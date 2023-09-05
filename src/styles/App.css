@@ -9,6 +9,12 @@
 
   }
 }
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: aliceblue;
+}
 /* 
 .Main{
   width: 100%;
