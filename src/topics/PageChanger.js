@@ -5,17 +5,21 @@ const PageChanger = ({mod}) =>{
 
     const [page,ChangePage] = useState(0)
     const pageview = Number(mod)+page
-const numberMod = Number(pageview)
+const numberMod = pageview
 const url = window.location.href
 const fileFetch = moduleFetch.find((prop)=>
-         prop.id ===numberMod
+prop.id ===numberMod
 
-    )
-    const fileName = fileFetch.file_name
+   )
+   const fileName = fileFetch.file_name
+
     const [file,setFile]= useState("Loading...")
     useEffect(()=>{
         const fetchFile = async ()=>{
+
+        
             try{
+         
                 const res = await fetch(`${url}javaPrograms/${fileName}`)
                 const content = await res.text()
                 setFile(content)
@@ -24,7 +28,15 @@ const fileFetch = moduleFetch.find((prop)=>
             }
         }
         fetchFile()
-    },[])
+    },[page,pageview])
+
+    const forward = (prop)=>{
+        ChangePage(prop)
+    }
+    const backward = (prop)=>{
+        if(page>0)
+        ChangePage(prop)
+    }
     return(
         <div className="container text-white flex flex-col items-center gap-8 min-h-[700px] ">
             <div className="mt-5 px-4">{fileFetch.qn_no}.{fileFetch.qn}</div>
@@ -32,8 +44,8 @@ const fileFetch = moduleFetch.find((prop)=>
                {file}</pre>
 
                <div className="flex">
-                <div className="p-3 bg-slate-700 rounded-lg mr-2 mb-5">Back</div>
-                <div className="p-3 bg-slate-700 rounded-lg mr-2 mb-5">Next</div></div>
+                <div onClick={()=>{backward(page-1)}} className="p-3 bg-slate-700 rounded-lg mr-2 mb-5">Back</div>
+                <div onClick={()=>{forward(page+1)}} className="p-3 bg-slate-700 rounded-lg mr-2 mb-5">Next</div></div>
             </div>
     )
 }
